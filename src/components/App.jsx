@@ -1,10 +1,11 @@
-import Header from './Header';
-import Text from './Text';
+import Header from "./Header";
+import Hero from "./Hero";
+import Text from "./Text";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Hero />
       <Text />
     </div>
   );

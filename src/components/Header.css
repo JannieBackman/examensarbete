@@ -1,5 +1,7 @@
 .header-container {
   height: 6rem;
+  position: absolute;
+  width: 100%;
 }
 .navbar {
   display: flex;
@@ -21,6 +23,7 @@
 }
 .nav-menu a {
   text-decoration: none;
+  color: black;
 }
 
 .nav-menu li {
