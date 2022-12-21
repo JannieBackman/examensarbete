@@ -1,0 +1,32 @@
+.footer-container {
+  background-color: #b97979;
+  color: #fff;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links li {
+  list-style-type: none;
+  font-size: 1.3rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  margin-left: 2.4rem;
+  font-weight: 400;
+}
+
+span {
+  margin-left: 2.4rem;
+}
