@@ -1,4 +1,4 @@
-import Header from './Header';
+import About from './About';
 import Hero from './Hero';
 import Text from './Text';
 import Footer from './Footer';
@@ -10,6 +10,7 @@ function App() {
       <Hero />
       <Text />
       <Products />
+      <About />
       <Footer />
     </div>
   );

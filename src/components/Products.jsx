@@ -19,9 +19,7 @@ function Products() {
           har skada eller liknande. <br /> <strong> ALLA </strong>kan vara med
           och mår bra utav rörelse & att vi har väldigt kul tillsammans är ett
           stort plus. <br /> Klicka här för se{' '}
-          <a href="https://www.facebook.com/boost.by.jossan/events">
-            Kommande träningspass
-          </a>
+          <a href="#">Kommande träningspass</a>
         </p>
         <img src={outdoor} alt="outdoorworkout" width={500} />
       </div>
@@ -35,11 +33,8 @@ function Products() {
           upp ett tränings-program som passar just dig, antingen på gym, hemma
           eller ute eller online så du kan utföra träningen själv med hjälp utav
           ett träningsprogram som du kan ha i en app i telefonen. Hör av dig
-          till mig på{' '}
-          <a href="mailto:boostbyjossan@outlook.com">
-            boostbyjossan@outlook.com
-          </a>{' '}
-          så hittar vi ett upplägg som passar dig.
+          till mig på <a href="mailto:#">Email</a> så hittar vi ett upplägg som
+          passar dig.
         </p>
         <img src={pt_online} alt="ptonline" width={400} />
       </div>
