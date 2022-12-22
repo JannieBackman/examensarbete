@@ -1,9 +1,9 @@
-import Header from "./Header";
 import Hero from "./Hero";
 import Text from "./Text";
-import Footer from "./Footer";
 import Products from "./Products";
 import Review from "./Review";
+import About from "./About";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       <Text />
       <Products />
       <Review />
+      <About />
       <Footer />
     </div>
   );

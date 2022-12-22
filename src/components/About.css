@@ -1,0 +1,15 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem;
+  padding: 0 5rem;
+}
+.about-title {
+  text-transform: uppercase;
+}
+.about-text {
+  text-align: center;
+  width: 75%;
+}
