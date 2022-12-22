@@ -1,6 +1,5 @@
 .about-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 6rem;
@@ -8,8 +7,15 @@
 }
 .about-title {
   text-transform: uppercase;
+  padding-left: 1rem;
+}
+.about-title h3 {
+  letter-spacing: 0.5rem;
+}
+
+.about-intro {
+  font-size: large;
 }
 .about-text {
-  text-align: center;
   width: 75%;
 }
