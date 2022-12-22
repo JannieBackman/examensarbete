@@ -1,0 +1,28 @@
+.products-container {
+  margin: 6rem;
+  padding: 0 5rem;
+  font-family: 'Montserrat';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.outdoor {
+  display: flex;
+  width: 80%;
+}
+.outdoor p {
+  padding-right: 2rem;
+  font-size: 1.2rem;
+}
+
+.pt {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 80%;
+}
+
+.pt p {
+  padding-left: 2rem;
+  font-size: 1.2rem;
+}
