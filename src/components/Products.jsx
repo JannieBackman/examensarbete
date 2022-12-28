@@ -1,6 +1,8 @@
 import outdoor from './assets/outdoor.png';
 import pt_online from './assets/pt_online.png';
+
 import './Products.css';
+import WaveBg from './Wavebg';
 
 function Products() {
   return (
@@ -33,10 +35,23 @@ function Products() {
           upp ett tränings-program som passar just dig, antingen på gym, hemma
           eller ute eller online så du kan utföra träningen själv med hjälp utav
           ett träningsprogram som du kan ha i en app i telefonen. Hör av dig
-          till mig på <a href="mailto:#">Email</a> så hittar vi ett upplägg som
-          passar dig.
+          till mig på <a href="mailto: email@email.se">Email</a> så hittar vi
+          ett upplägg som passar dig.
         </p>
         <img src={pt_online} alt="ptonline" width={400} />
+      </div>
+
+      <div className="b2b">
+        <p>
+          <strong>Företagsträning </strong> <br />
+          Är du sugen på att utmana & träna tillsammans med dina kollegor? Vill
+          du som arbetsgivare hjälpa dina medarbetare till att bli piggare,
+          starkare och må bättre? Jag erbjuder företagsträning både inomhus och
+          utomhus. Att utmanas tillsammans med sina arbetskamrater är väldogt
+          roligt och utvecklade samt skapar en bättre sammanhållning och dynamik
+          i gruppen. Vill du ha en offert? <br /> Maila mig på
+          <a href="mailto:">Email</a>
+        </p>
       </div>
     </div>
   );
