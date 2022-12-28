@@ -1,14 +1,14 @@
 .footer-container {
   background-color: #b97979;
   color: #fff;
-  padding: 2rem 0;
+  padding: 6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 25rem;
 }
 
-.footer-links li {
-  list-style-type: none;
+.footer-links p {
   font-size: 1.3rem;
 }
 
@@ -23,10 +23,9 @@
 }
 
 h2 {
-  margin-left: 2.4rem;
   font-weight: 400;
 }
 
-span {
-  margin-left: 2.4rem;
+.footer-links a:hover {
+  color: black;
 }
