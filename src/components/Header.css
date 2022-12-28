@@ -29,5 +29,6 @@
 .nav-menu li {
   flex-direction: row;
   list-style-type: none;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }

@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about-section">
       <img src={aboutMe} alt="aboutme" width={300} />
       <div className="about-title">
         <h4>Om mig</h4>
