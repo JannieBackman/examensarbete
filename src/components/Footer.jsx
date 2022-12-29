@@ -3,14 +3,14 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className='footer-container' id='contact-section'>
       <div>
         <h2>BOOST BY JOSSAN</h2>
         <div className='footer-links'>
-          <a href='#Services'>
+          <a href='#product-section'>
             <p>Tjänster</p>
           </a>
-          <a href='#About'>
+          <a href='#about-section'>
             <p>Om mig</p>
           </a>
         </div>

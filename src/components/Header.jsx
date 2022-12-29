@@ -9,13 +9,13 @@ function Header() {
         <img src={brandName} alt="brandName" />
         <div className="nav-menu">
           <ul>
-            <a href="Services">
+            <a href="#product-section">
               <li>Tjänster</li>
             </a>
-            <a href="About">
+            <a href="#about-section">
               <li>Om mig</li>
             </a>
-            <a href="contact">
+            <a href="#contact-section">
               <li>Kontakt</li>
             </a>
           </ul>

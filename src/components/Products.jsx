@@ -4,7 +4,7 @@ import "./Products.css";
 
 function Products() {
   return (
-    <div className='products-container'>
+    <div className="products-container" id="product-section">
       <h1>Tjänster</h1>
       <div className='outdoor'>
         <p>
