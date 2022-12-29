@@ -1,14 +1,12 @@
-import outdoor from './assets/outdoor.png';
-import pt_online from './assets/pt_online.png';
-
-import './Products.css';
-import WaveBg from './Wavebg';
+import outdoor from "./assets/outdoor.png";
+import pt_online from "./assets/pt_online.png";
+import "./Products.css";
 
 function Products() {
   return (
-    <div className="products-container">
+    <div className='products-container'>
       <h1>Tjänster</h1>
-      <div className="outdoor">
+      <div className='outdoor'>
         <p>
           <strong>Utomhusträning</strong> <br />
           Jag startade utomhusträningen hösten 2020 då det fanns utmaningar till
@@ -20,12 +18,12 @@ function Products() {
           till att anpassa träningen efter din nivå samt hjälper till ifall man
           har skada eller liknande. <br /> <strong> ALLA </strong>kan vara med
           och mår bra utav rörelse & att vi har väldigt kul tillsammans är ett
-          stort plus. <br /> Klicka här för se{' '}
-          <a href="#">Kommande träningspass</a>
+          stort plus. <br /> Klicka här för se{" "}
+          <a href='#'>Kommande träningspass</a>
         </p>
-        <img src={outdoor} alt="outdoorworkout" width={500} />
+        <img src={outdoor} alt='outdoorworkout' width={500} />
       </div>
-      <div className="pt">
+      <div className='pt'>
         <p>
           <strong>Personlig träning / Online träning </strong>
           <br />
@@ -35,13 +33,13 @@ function Products() {
           upp ett tränings-program som passar just dig, antingen på gym, hemma
           eller ute eller online så du kan utföra träningen själv med hjälp utav
           ett träningsprogram som du kan ha i en app i telefonen. Hör av dig
-          till mig på <a href="mailto: email@email.se">Email</a> så hittar vi
+          till mig på <a href='mailto: email@email.se'>Email</a> så hittar vi
           ett upplägg som passar dig.
         </p>
-        <img src={pt_online} alt="ptonline" width={400} />
+        <img src={pt_online} alt='ptonline' width={400} />
       </div>
 
-      <div className="b2b">
+      <div className='b2b'>
         <p>
           <strong>Företagsträning </strong> <br />
           Är du sugen på att utmana & träna tillsammans med dina kollegor? Vill
@@ -50,7 +48,7 @@ function Products() {
           utomhus. Att utmanas tillsammans med sina arbetskamrater är väldogt
           roligt och utvecklade samt skapar en bättre sammanhållning och dynamik
           i gruppen. Vill du ha en offert? <br /> Maila mig på
-          <a href="mailto:">Email</a>
+          <a href='mailto:'>Email</a>
         </p>
       </div>
     </div>
