@@ -1,8 +1,6 @@
 import outdoor from "./assets/outdoor.png";
 import pt_online from "./assets/pt_online.png";
-
 import "./Products.css";
-import WaveBg from "./Wavebg";
 
 function Products() {
   return (
