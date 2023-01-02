@@ -1,9 +1,14 @@
 .textblock {
   background-color: #9eb89e;
-  height: 4rem;
+  height: 6.5rem;
   color: #fff;
   font-size: 1.5rem;
-  padding-top: 1rem;
-  text-align: center;
   font-family: "Montserrat";
+}
+
+.writer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
