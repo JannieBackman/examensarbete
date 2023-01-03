@@ -9,7 +9,9 @@
 .nav-mobile img {
   height: 3rem;
 }
-
+.mobile-list {
+  background-color: rgba(158, 184, 158, 1);
+}
 .mobile-list ul {
   display: flex;
   align-items: center;
