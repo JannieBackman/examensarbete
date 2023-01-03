@@ -1,0 +1,31 @@
+.nav-mobile {
+  margin-left: 1rem;
+  padding-top: 1rem;
+}
+.nav-mobile span {
+  padding-right: 2rem;
+  font-size: 2rem;
+}
+.nav-mobile img {
+  height: 3rem;
+}
+.mobile-list {
+  background-color: rgba(158, 184, 158, 1);
+}
+.mobile-list ul {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+.mobile-list a {
+  text-decoration: none;
+  color: black;
+}
+
+.mobile-list li {
+  list-style-type: none;
+  font-size: 1.3rem;
+  font-weight: 600;
+}

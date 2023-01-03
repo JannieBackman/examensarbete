@@ -1,6 +1,7 @@
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import brandName from './assets/text_logo.png';
 import React from 'react';
+import './MobileHeader.css';
 
 function NavMobile() {
   const [show, setShow] = React.useState(false);
@@ -10,6 +11,7 @@ function NavMobile() {
   return (
     <>
       <div
+        className="nav-mobile"
         style={{
           position: 'absolute',
           display: 'flex',
@@ -23,9 +25,11 @@ function NavMobile() {
 
       <Offcanvas show={show} onHide={handleClose}>
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title>
+            <img src={brandName} alt="brandName" height={30} />
+          </Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body>
+        <Offcanvas.Body className="mobile-list">
           <ul>
             <a href="#product-section">
               <li>Tjänster</li>
