@@ -9,8 +9,13 @@
   width: 100%;
 }
 
+.footer-links {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
 .footer-links p {
   font-size: 1.3rem;
+  margin: 0;
 }
 
 .footer-links a {
