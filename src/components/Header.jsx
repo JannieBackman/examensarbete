@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import brandName from './assets/text_logo.png';
 import './Header.css';
-import NavMobile from './Navbar';
+import NavMobile from './MobileHeader';
 
 function Header() {
   const [isMobile, setIsMobile] = useState(
