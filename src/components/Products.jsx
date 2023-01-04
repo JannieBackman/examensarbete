@@ -4,7 +4,7 @@ import "./Products.css";
 
 function Products() {
   return (
-    <div className="products-container" id="product-section">
+    <div className='products-container' id='product-section'>
       <h1>Tjänster</h1>
       <div className='outdoor'>
         <p>
@@ -21,7 +21,11 @@ function Products() {
           stort plus. <br /> Klicka här för se{" "}
           <a href='#'>Kommande träningspass</a>
         </p>
-        <img src={outdoor} alt='outdoorworkout' width={500} />
+        <img
+          src={outdoor}
+          alt='outdoorworkout'
+          style={{ width: "100%", height: "auto" }}
+        />
       </div>
       <div className='pt'>
         <p>
@@ -36,7 +40,11 @@ function Products() {
           till mig på <a href='mailto: email@email.se'>Email</a> så hittar vi
           ett upplägg som passar dig.
         </p>
-        <img src={pt_online} alt='ptonline' width={400} />
+        <img
+          src={pt_online}
+          alt='ptonline'
+          style={{ width: "100%", height: "auto" }}
+        />
       </div>
 
       <div className='b2b'>

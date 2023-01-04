@@ -13,9 +13,35 @@
   letter-spacing: 0.5rem;
 }
 
+.about-imgTitle {
+  display: flex;
+  align-items: center;
+}
 .about-intro {
   font-size: larger;
 }
 .about-text {
   width: 75%;
+}
+
+@media (max-width: 2000px) {
+  .about-container {
+    flex-direction: column;
+    margin: 3rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-imgTitle {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .about-title,
+  .about-container {
+    padding: 0;
+  }
+
+  .about-text {
+    width: 100%;
+  }
 }

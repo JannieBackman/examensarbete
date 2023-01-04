@@ -1,21 +1,28 @@
-import aboutMe from './assets/AboutMe.png';
-import './About.css';
+import aboutMe from "./assets/AboutMe.png";
+import "./About.css";
 
 function About() {
   return (
-    <div className="about-container" id="about-section">
-      <img src={aboutMe} alt="aboutme" width={300} />
-      <div className="about-title">
-        <h4>Om mig</h4>
-        <h1>Josefin Lundqvist</h1>
+    <div className='about-container' id='about-section'>
+      <div className='about-imgTitle'>
+        <img
+          src={aboutMe}
+          alt='aboutme'
+          width={300}
+          style={{ maxWidth: "100%", height: "auto" }}
+        />
+        <div className='about-title'>
+          <h4>Om mig</h4>
+          <h1>Josefin Lundqvist</h1>
+        </div>
       </div>
-      <div className="about-text">
-        <p className="about-intro">
+      <div className='about-text'>
+        <p className='about-intro'>
           <strong>
             Jag brinner för att peppa, inspirera och älskar att se hur individen
             utvecklas och vågar ta sig utanför sin comfortzone och framförallt
             hjälpa till att skapa starka & hållbara kroppar.
-          </strong>{' '}
+          </strong>{" "}
         </p>
         <p>
           Mitt namn är Josefin Lundqvist och är 34 år, bor i Kungsbacka,

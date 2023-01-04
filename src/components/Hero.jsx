@@ -19,7 +19,7 @@ function Hero() {
           transform: "translate(-50%, -50%)",
         }}
       >
-        <img src={boostLogo} alt='' />
+        <img src={boostLogo} alt='' style={{ width: "100%", height: "auto" }} />
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 .products-container {
   margin-top: 6rem;
   padding: 0 5rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,7 +12,9 @@
 }
 .outdoor {
   display: flex;
-  width: 80%;
+  /* width: 80%; */
+  width: 100%;
+  height: auto;
 }
 .outdoor p {
   padding-right: 2rem;
@@ -22,7 +24,9 @@
 .pt {
   display: flex;
   flex-direction: row-reverse;
-  width: 80%;
+  /* width: 80%; */
+  width: 100%;
+  height: auto;
 }
 
 .pt p {
@@ -35,4 +39,22 @@
 
   text-align: center;
   font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+  .products-container {
+    padding: 0 2rem;
+  }
+
+  .pt,
+  .outdoor {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .pt p,
+  .outdoor p {
+    text-align: center;
+    padding: 0;
+  }
 }
