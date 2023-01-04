@@ -1,47 +1,153 @@
+/* Mobile-first 425px */
+
 .about-container {
+  margin: 2rem;
+}
+.about-imgTitle {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 6rem;
-  padding: 0 5rem;
+  justify-content: center;
+}
+.about-imgTitle img {
+  width: 12rem;
 }
 .about-title {
   text-transform: uppercase;
   padding-left: 1rem;
 }
-.about-title h3 {
+.about-title h4 {
   letter-spacing: 0.5rem;
 }
-
-.about-imgTitle {
-  display: flex;
-  align-items: center;
+.about-text {
+  margin: 1rem;
 }
 .about-intro {
-  font-size: larger;
-}
-.about-text {
-  width: 75%;
+  padding-top: 1rem;
 }
 
-@media (max-width: 2000px) {
+@media (max-width: 400px) {
   .about-container {
-    flex-direction: column;
-    margin: 3rem;
+    margin: 1rem;
   }
-}
-
-@media (max-width: 1000px) {
   .about-imgTitle {
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
   }
-  .about-title,
+  .about-imgTitle img {
+    width: 12rem;
+  }
+  .about-title {
+    padding-top: 1rem;
+    text-transform: uppercase;
+    padding-left: 1rem;
+    text-align: center;
+  }
+  .about-title h4 {
+    letter-spacing: 0.5rem;
+  }
+  .about-text {
+    margin: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  /* .about-container {
+    margin: 2rem;
+  } */
+  .about-imgTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-imgTitle img {
+    width: 14rem;
+  }
+  .about-title {
+    text-transform: uppercase;
+    padding-left: 1rem;
+  }
+  .about-title h4 {
+    letter-spacing: 0.5rem;
+  }
+  .about-text {
+    margin: 2rem;
+  }
+  .about-intro {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 1000px) {
   .about-container {
-    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 4rem;
+  }
+  .about-title h4,
+  h1 {
+    text-transform: uppercase;
+    padding-right: 1rem;
+  }
+  .about-title h4 {
+    letter-spacing: 0.5rem;
+  }
+  .about-title h1 {
+    font-size: 2.5rem;
   }
 
+  .about-imgTitle {
+    display: flex;
+    align-items: center;
+  }
+  .about-imgTitle img {
+    width: 16rem;
+  }
+  .about-intro {
+    font-size: larger;
+  }
   .about-text {
-    width: 100%;
+    width: 75%;
+    padding-left: 1rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem;
+    padding: 0 5rem;
+  }
+
+  .about-title h4,
+  h1 {
+    text-transform: uppercase;
+    padding-left: 1rem;
+  }
+  .about-title h4 {
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+  }
+  .about-title h1 {
+    font-size: 3.5rem;
+  }
+
+  .about-imgTitle {
+    display: flex;
+    align-items: center;
+  }
+  .about-imgTitle img {
+    width: 20rem;
+  }
+  .about-intro {
+    font-size: 2rem;
+  }
+  .about-text {
+    width: 75%;
+    font-size: 1.5rem;
+    padding-left: 2rem;
   }
 }
