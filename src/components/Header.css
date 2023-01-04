@@ -1,6 +1,7 @@
 .header-container {
-  height: 6rem;
+  height: 4rem;
   position: absolute;
+  background-color: #fff;
   width: 100%;
 }
 .navbar {
@@ -19,6 +20,7 @@
   justify-content: center;
   flex-direction: row;
   align-items: center;
+  padding-top: 0.5rem;
   gap: 1rem;
 }
 .nav-menu a {
@@ -30,5 +32,5 @@
   flex-direction: row;
   list-style-type: none;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 500;
 }
