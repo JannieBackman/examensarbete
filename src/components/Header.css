@@ -1,7 +1,10 @@
 .header-container {
-  height: 6rem;
-  position: absolute;
+  height: 4rem;
+  position: fixed;
   width: 100%;
+  background-color: #fff;
+  top: 0px;
+  z-index: 1;
 }
 .navbar {
   display: flex;
@@ -30,5 +33,5 @@
   flex-direction: row;
   list-style-type: none;
   font-size: 1.3rem;
-  font-weight: 600;
+  font-weight: 400;
 }
