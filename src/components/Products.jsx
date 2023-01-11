@@ -20,7 +20,7 @@ function Products() {
           har skada eller liknande. <br /> <strong> ALLA </strong>kan vara med
           och mår bra utav rörelse & att vi har väldigt kul tillsammans är ett
           stort plus. <br /> Klicka här för se{" "}
-          <a href='#'>Kommande träningspass</a>
+          <strong>Kommande träningspass</strong>
         </p>
         <img
           src={outdoorTraining}
