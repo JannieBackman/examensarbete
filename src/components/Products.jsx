@@ -1,6 +1,5 @@
 import outdoorTraining from "./assets/outdoorTraining.png";
 import pt_online from "./assets/pt_online.png";
-import company from "./assets/blackwhiteimg.png";
 import "./Products.css";
 
 function Products() {
@@ -22,15 +21,7 @@ function Products() {
           stort plus. <br /> Klicka här för se{" "}
           <strong>Kommande träningspass</strong>
         </p>
-        <img
-          src={outdoorTraining}
-          alt='outdoorworkout'
-          // style={{
-          //   maxWidth: "100%",
-          //   width: "auto",
-          //   height: "auto",
-          // }}
-        />
+        <img src={outdoorTraining} alt='outdoorworkout' />
       </div>
       <div className='pt'>
         <p>
@@ -45,11 +36,7 @@ function Products() {
           till mig på <a href='mailto: email@email.se'>Email</a> så hittar vi
           ett upplägg som passar dig.
         </p>
-        <img
-          src={pt_online}
-          alt='ptonline'
-          style={{ maxWidth: "100%", width: "auto", height: "auto" }}
-        />
+        <img src={pt_online} alt='ptonline' />
       </div>
 
       <div className='b2b'>
@@ -63,7 +50,6 @@ function Products() {
           i gruppen. Vill du ha en offert? <br /> Maila mig på
           <a href='mailto:'>Email</a>
         </p>
-        <img src={company} alt='' style={{ width: "100%", height: "auto" }} />
       </div>
     </div>
   );

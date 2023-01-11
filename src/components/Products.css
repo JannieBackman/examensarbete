@@ -1,5 +1,4 @@
 .products-container {
-  margin-top: 6rem;
   padding: 0 2rem;
   font-family: "Montserrat";
   display: flex;
@@ -15,39 +14,36 @@
 .products-container h1 {
   margin-top: 4rem;
 }
+
 .outdoor {
   display: flex;
-  /* width: 80%; */
   width: 100%;
   height: auto;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.outdoor p {
-  /* padding-right: 2rem; */
+.outdoor p,
+.pt p {
   font-size: 1.2rem;
   text-align: center;
 }
 
-.outdoor img {
-  height: 20rem;
-  width: 20rem;
+.outdoor img,
+.pt img {
+  padding: 1rem;
+  height: auto;
+  width: 100%;
 }
+
 .pt {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* flex-direction: row-reverse; */
-  /* width: 80%; */
+  align-items: center;
   width: 100%;
   height: auto;
-}
-
-.pt p {
-  padding-left: 2rem;
-  font-size: 1.2rem;
-  text-align: center;
 }
 
 .b2b {
@@ -55,21 +51,36 @@
   text-align: center;
   font-size: 1.2rem;
 }
-/* 
-@media (max-width: 1000px) {
-  .products-container {
-    padding: 0 2rem;
-  }
 
-  .pt,
+@media (min-width: 400px) {
+  .outdoor img {
+    height: 300px;
+    width: 350px;
+  }
+  .pt img {
+    height: 300px;
+    width: 350px;
+  }
+}
+@media (min-width: 800px) {
   .outdoor {
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+  }
+  .outdoor p,
+  .pt p {
+    text-align: start;
+  }
+  .outdoor img {
+    height: 300px;
+    width: 400px;
   }
 
-  .pt p,
-  .outdoor p {
-    text-align: center;
-    padding: 0;
+  .pt {
+    flex-direction: row-reverse;
   }
-} */
+
+  .pt img {
+    height: 300px;
+    width: 400px;
+  }
+}
