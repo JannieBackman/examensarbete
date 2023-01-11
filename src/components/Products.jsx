@@ -1,5 +1,6 @@
-import outdoor from "./assets/outdoor.png";
+import outdoorTraining from "./assets/outdoorTraining.png";
 import pt_online from "./assets/pt_online.png";
+import company from "./assets/blackwhiteimg.png";
 import "./Products.css";
 
 function Products() {
@@ -22,9 +23,13 @@ function Products() {
           <a href='#'>Kommande träningspass</a>
         </p>
         <img
-          src={outdoor}
+          src={outdoorTraining}
           alt='outdoorworkout'
-          style={{ width: "100%", height: "auto" }}
+          // style={{
+          //   maxWidth: "100%",
+          //   width: "auto",
+          //   height: "auto",
+          // }}
         />
       </div>
       <div className='pt'>
@@ -43,7 +48,7 @@ function Products() {
         <img
           src={pt_online}
           alt='ptonline'
-          style={{ width: "100%", height: "auto" }}
+          style={{ maxWidth: "100%", width: "auto", height: "auto" }}
         />
       </div>
 
@@ -58,6 +63,7 @@ function Products() {
           i gruppen. Vill du ha en offert? <br /> Maila mig på
           <a href='mailto:'>Email</a>
         </p>
+        <img src={company} alt='' style={{ width: "100%", height: "auto" }} />
       </div>
     </div>
   );

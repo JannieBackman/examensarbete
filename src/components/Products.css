@@ -1,29 +1,41 @@
 .products-container {
   margin-top: 6rem;
-  padding: 0 5rem;
+  padding: 0 2rem;
   font-family: "Montserrat";
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 .products-container div {
   padding-top: 5rem;
 }
+
 .outdoor {
   display: flex;
   /* width: 80%; */
   width: 100%;
   height: auto;
-}
-.outdoor p {
-  padding-right: 2rem;
-  font-size: 1.2rem;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.outdoor p {
+  /* padding-right: 2rem; */
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.outdoor img {
+  height: 20rem;
+  width: 20rem;
+}
 .pt {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-direction: row-reverse; */
   /* width: 80%; */
   width: 100%;
   height: auto;
@@ -32,15 +44,15 @@
 .pt p {
   padding-left: 2rem;
   font-size: 1.2rem;
+  text-align: center;
 }
 
 .b2b {
-  width: 75%;
-
+  width: 100%;
   text-align: center;
   font-size: 1.2rem;
 }
-
+/* 
 @media (max-width: 1000px) {
   .products-container {
     padding: 0 2rem;
@@ -57,4 +69,4 @@
     text-align: center;
     padding: 0;
   }
-}
+} */
