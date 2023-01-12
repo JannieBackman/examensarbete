@@ -4,13 +4,18 @@ import Header from "./Header";
 
 function Hero() {
   return (
-    <div style={{ height: "100vh", width: "100%", position: " relative" }}>
+    <div
+      style={{
+        position: " relative",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
       <Header />
-      <img
-        src={heroImage}
-        alt=''
-        style={{ objectFit: "cover", height: "100%", width: "100%" }}
-      />
+      <img src={heroImage} alt='' style={{ height: "80%", width: "80%" }} />
+
       <div
         style={{
           position: "absolute",
@@ -19,7 +24,29 @@ function Hero() {
           transform: "translate(-50%, -50%)",
         }}
       >
-        <img src={boostLogo} alt='' style={{ width: "100%", height: "auto" }} />
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            justtifyContent: "center",
+            alignItems: "center",
+            width: "100%",
+          }}
+        >
+          <img src={boostLogo} alt='' style={{ width: "40%", height: "40%" }} />
+
+          <h1
+            style={{
+              color: "#fff",
+              display: "flex",
+              textAlign: "center",
+              width: "100%",
+              height: "auto",
+            }}
+          >
+            Utomhusträning i Kungsbacka
+          </h1>
+        </div>
       </div>
     </div>
   );
