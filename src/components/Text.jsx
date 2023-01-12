@@ -27,7 +27,14 @@ function Text() {
             />
           </span>
         ) : (
-          <span style={{ textAlign: 'center', padding: '1rem' }}>
+          <span
+            style={{
+              textAlign: 'center',
+              padding: '1rem',
+              color: '#fff',
+              fontSize: ' 1.5rem',
+            }}
+          >
             <Typewriter
               options={{
                 autoStart: true,
