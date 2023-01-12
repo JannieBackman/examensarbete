@@ -9,10 +9,10 @@ function Review() {
           <Carousel.Caption>
             <blockquote className='blockqoute mb-0'>
               <p>
-                {""}Mycket bra träning!{""}
+                {""}Kul och super bra träning för alla!{""}
               </p>
               <footer className='blockquote-footer'>
-                <cite title='Source Title'>Maja</cite>
+                <cite title='Source Title'>Soffi</cite>
               </footer>
             </blockquote>
           </Carousel.Caption>
@@ -23,10 +23,10 @@ function Review() {
           <Carousel.Caption>
             <blockquote className='blockqoute mb-0'>
               <p>
-                {""}Mycket bra träning!{""}
+                {""}Rolig och välgörande träning i utomhusmiljö 👍🏻👍🏻👍🏻👍🏻👍🏻{""}
               </p>
               <footer className='blockquote-footer'>
-                <cite title='Source Title'>Maja</cite>
+                <cite title='Source Title'>Nettan</cite>
               </footer>
             </blockquote>
           </Carousel.Caption>
@@ -37,10 +37,11 @@ function Review() {
           <Carousel.Caption>
             <blockquote className='blockqoute mb-0'>
               <p>
-                {""}Mycket bra träning!{""}
+                {""}Bästa träningen, speciellt i dessa tider! Utomhus och med
+                avstånd 👌⭐️💪{""}
               </p>
               <footer className='blockquote-footer'>
-                <cite title='Source Title'>Maja</cite>
+                <cite title='Source Title'>Monika</cite>
               </footer>
             </blockquote>
           </Carousel.Caption>
