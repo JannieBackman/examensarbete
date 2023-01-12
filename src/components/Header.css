@@ -1,7 +1,7 @@
 .header-container {
   height: 4rem;
   position: fixed;
-  width: 80%;
+  width: 100%;
   background-color: #fff;
   top: 0px;
   z-index: 1;
@@ -10,8 +10,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding-top: 1rem;
+  margin: 0 3rem;
+  padding: 1rem;
 }
 .navbar img {
   height: 3rem;
