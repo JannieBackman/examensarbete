@@ -1,6 +1,6 @@
 .products-container {
   padding: 0 2rem;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,6 +63,9 @@
   }
 }
 @media (min-width: 800px) {
+  .products-container {
+    padding: 0 5rem;
+  }
   .outdoor {
     flex-direction: row;
   }
