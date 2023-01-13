@@ -16,7 +16,7 @@ function Hero() {
       <Header />
       <img
         src={heroImage}
-        alt="hero image of outdoorworkout"
+        alt="outdoorworkout"
         style={{ height: '100%', width: '100%' }}
       />
 
