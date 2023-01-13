@@ -1,4 +1,4 @@
-import heroImage from './assets/heroImage.png';
+import heroImage from './assets/heroImage2.png';
 import boostLogo from './assets/logo.png';
 import Header from './Header';
 
@@ -14,7 +14,11 @@ function Hero() {
       }}
     >
       <Header />
-      <img src={heroImage} alt="" style={{ height: '100%', width: '100%' }} />
+      <img
+        src={heroImage}
+        alt="outdoorworkout"
+        style={{ height: '100%', width: '100%' }}
+      />
 
       <div
         style={{
@@ -33,7 +37,11 @@ function Hero() {
             width: '100%',
           }}
         >
-          <img src={boostLogo} alt="" style={{ width: '40%', height: '40%' }} />
+          <img
+            src={boostLogo}
+            alt="logotype"
+            style={{ width: '40%', height: '40%' }}
+          />
 
           <h1
             style={{
