@@ -1,37 +1,41 @@
 .header-container {
-  height: 4rem;
+  height: auto;
   position: fixed;
   width: 100%;
   background-color: #fff;
   top: 0px;
   z-index: 1;
+  padding: 0.5rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 3rem;
-  padding: 1rem;
+  text-align: center;
+  padding: 0;
 }
+
 .navbar img {
   height: 3rem;
 }
 
-.nav-menu ul {
+.nav-menu {
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  align-items: center;
   gap: 1rem;
+  text-align: center;
 }
+
 .nav-menu a {
   text-decoration: none;
   color: black;
 }
 
-.nav-menu li {
+.nav-menu p {
   flex-direction: row;
-  list-style-type: none;
   font-size: 1.3rem;
   font-weight: 400;
+  margin: 0;
 }
