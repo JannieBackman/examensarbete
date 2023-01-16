@@ -5,7 +5,8 @@
   background-color: #fff;
   top: 0px;
   z-index: 1;
-  padding: 1rem;
+  padding: 0.5rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .navbar {
