@@ -5,6 +5,7 @@ import Review from './Review';
 import About from './About';
 import Footer from './Footer';
 import WaveBg from './Wavebg';
+import ImageGallery from './gallery';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Text />
       <Products />
       <WaveBg />
-      <Review />
       <About />
+      <Review />
+      <ImageGallery />
       <Footer />
     </div>
   );
