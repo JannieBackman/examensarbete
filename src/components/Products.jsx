@@ -62,12 +62,15 @@ function Products() {
       <div className="b2b">
         <p>
           <strong>Företagsträning </strong> <br />
-          Är du sugen på att utmana & träna tillsammans med dina kollegor? Vill
-          du som arbetsgivare hjälpa dina medarbetare till att bli piggare,
+          Är du sugen på att utmana & träna tillsammans med dina kollegor?{' '}
+          <br />
+          Vill du som arbetsgivare hjälpa dina medarbetare till att bli piggare,
           starkare och må bättre? Jag erbjuder företagsträning både inomhus och
-          utomhus. Att utmanas tillsammans med sina arbetskamrater är väldogt
-          roligt och utvecklade samt skapar en bättre sammanhållning och dynamik
-          i gruppen. Vill du ha en offert? <br /> Maila mig på
+          utomhus. <br />
+          Att utmanas tillsammans med sina arbetskamrater är väldogt roligt och
+          utvecklade samt skapar en bättre sammanhållning och dynamik i gruppen.{' '}
+          <br />
+          Vill du ha en offert? Maila mig på {''}
           <a href="mailto:">Email</a>
         </p>
       </div>
