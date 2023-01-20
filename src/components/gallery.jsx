@@ -1,24 +1,20 @@
-import b from './assets/b.jpg';
-import c from './assets/c.jpg';
-import d from './assets/d.jpg';
-import e from './assets/e.jpg';
+import a from './assets/Ellipse 7.png';
+import b from './assets/Ellipse 8.png';
+import c from './assets/Ellipse 9.png';
 import './gallery.css';
 import Form from './form';
+import { React } from 'react';
 
 function ImageGallery() {
   return (
     <div className="container">
       <div className="form">
-        {' '}
         <Form />
       </div>
       <div className="gallery">
-        <img src={b} alt="ptonline" width={250} />
+        <img src={a} alt="ptonline" width={250} />
         <img src={b} alt="ptonline" width={250} />
         <img src={c} alt="ptonline" width={250} />
-        <img src={d} alt="ptonline" width={250} />
-        <img src={e} alt="ptonline" width={250} />
-        <img src={e} alt="ptonline" width={250} />
       </div>
     </div>
   );
