@@ -1,5 +1,5 @@
-import outdoorTraining from './assets/outdoorTraining.png';
-import pt_online from './assets/pt_online.png';
+import outdoorTraining from './assets/39.png';
+import pt_online from './assets/40.png';
 import './Products.css';
 import Button from 'react-bootstrap/Button';
 
