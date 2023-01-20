@@ -3,18 +3,9 @@ import b from './assets/Ellipse 8.png';
 import c from './assets/Ellipse 9.png';
 import './gallery.css';
 import Form from './form';
-import { React, useEffect, useState } from 'react';
+import { React } from 'react';
 
 function ImageGallery() {
-  const [isMobile, setIsMobile] = useState(
-    window.matchMedia('(max-width: 790px)').matches
-  );
-  useEffect(() => {
-    window
-      .matchMedia('(max-width: 790px)')
-      .addEventListener('change', (e) => setIsMobile(e.matches));
-  }, []);
-
   return (
     <div className="container">
       <div className="form">
