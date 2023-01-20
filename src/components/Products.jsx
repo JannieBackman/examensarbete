@@ -16,8 +16,8 @@ function Products() {
 
       <div className="outdoor">
         <div>
+          <h3>Utomhusträning</h3> <br />
           <p>
-            <strong>Utomhusträning</strong> <br />
             Träningen sker med kroppsvikt, gummiband, kettlebells, bollar,
             hantlar m.m. <br /> Det är viktigt för mig att alla ska känna sig
             inkluderade och att jag hjälper just dig till att anpassa träningen
@@ -41,8 +41,8 @@ function Products() {
 
       <div className="pt">
         <div>
+          <h3>Personlig träning / Online träning </h3>
           <p>
-            <strong>Personlig träning / Online träning </strong>
             <br />
             Personlig träning för dig som önskar få hjälp med att nå nya mål med
             din träning och utveckla din fysiska förmåga eller för dig som vill
@@ -57,22 +57,6 @@ function Products() {
         <div>
           <img src={pt_online} alt="ptonline" />
         </div>
-      </div>
-
-      <div className="b2b">
-        <p>
-          <strong>Företagsträning </strong> <br />
-          Är du sugen på att utmana & träna tillsammans med dina kollegor?{' '}
-          <br />
-          Vill du som arbetsgivare hjälpa dina medarbetare till att bli piggare,
-          starkare och må bättre? Jag erbjuder företagsträning både inomhus och
-          utomhus. <br />
-          Att utmanas tillsammans med sina arbetskamrater är väldogt roligt och
-          utvecklade samt skapar en bättre sammanhållning och dynamik i gruppen.{' '}
-          <br />
-          Vill du ha en offert? Maila mig på {''}
-          <a href="mailto:">Email</a>
-        </p>
       </div>
     </div>
   );

@@ -21,7 +21,7 @@ function Form() {
         <input placeholder="Andersson" {...register('lastName')} />
         <label htmlFor="email">Email</label>
         <input
-          placeholder="anna.andersson@hotmail.com"
+          placeholder="anna.andersson@gmail.com"
           type="email"
           {...register('email')}
         />
