@@ -1,6 +1,6 @@
 .products-container {
   padding: 0 2rem;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,12 +24,19 @@
   width: 80%;
   height: auto;
   display: flex;
+  background-color: aliceblue;
+  margin: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  padding: 1rem;
 }
 
 .pt {
   display: flex;
   width: 80%;
   height: auto;
+  background-color: aliceblue;
+  margin: 2rem;
+  padding: 2rem;
 }
 
 .b2b {

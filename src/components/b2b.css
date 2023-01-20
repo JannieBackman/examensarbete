@@ -1,5 +1,5 @@
 .b2b-container {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,7 +35,7 @@
 .refTwo {
   width: 80%;
   display: flex;
-  flex-direction: row-reverse;
+
   justify-content: center;
   align-items: center;
   padding: 2rem;
