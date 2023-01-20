@@ -32,24 +32,18 @@
   height: auto;
 }
 
-.b2b {
-  width: 80%;
-  text-align: center;
-  font-size: 1.2rem;
-}
-
 .outdoor p,
 .pt p {
   font-size: 1.2rem;
   padding: 0 2rem;
 }
 
-.outdoor img,
+/* .outdoor img,
 .pt img {
   padding: 1rem;
   height: auto;
   width: 100%;
-}
+} */
 
 @media (min-width: 400px) {
   .intro {
@@ -90,10 +84,11 @@
   .outdoor p,
   .pt p {
     text-align: start;
+    padding: 1rem;
   }
   .outdoor img {
     height: 300px;
-    width: 400px;
+    width: 300px;
   }
 
   .pt {
@@ -102,6 +97,7 @@
 
   .pt img {
     height: 300px;
-    width: 400px;
+    width: 300px;
+    margin-bottom: 1rem;
   }
 }

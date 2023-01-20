@@ -1,6 +1,6 @@
-import a from './assets/Ellipse 7.png';
-import b from './assets/Ellipse 8.png';
-import c from './assets/Ellipse 9.png';
+import a from './assets/36.png';
+import b from './assets/37.png';
+import c from './assets/38.png';
 import './gallery.css';
 import Form from './form';
 import { React } from 'react';
