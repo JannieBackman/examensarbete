@@ -7,10 +7,12 @@ import Footer from './Footer';
 import WaveBg from './Wavebg';
 import ImageGallery from './gallery';
 import B2b from './b2b';
+import Header from "./Header";
 
 function App() {
   return (
     <div>
+      <Header />
       <Hero />
       <Text />
       <Products />
