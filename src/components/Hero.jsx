@@ -1,55 +1,53 @@
-import heroImage from './assets/heroImage2.png';
-import boostLogo from './assets/logo.png';
-import Header from './Header';
+import heroImage from "./assets/heroImage2.png";
+import boostLogo from "./assets/logo.png";
 
 function Hero() {
   return (
     <div
       style={{
-        position: ' relative',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
+        position: " relative",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
       }}
     >
-      <Header />
       <img
         src={heroImage}
-        alt="outdoorworkout"
-        style={{ height: '100%', width: '100%' }}
+        alt='outdoorworkout'
+        style={{ height: "100%", width: "100%" }}
       />
 
       <div
         style={{
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
+          position: "absolute",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%, -50%)",
         }}
       >
         <div
           style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justtifyContent: 'center',
-            alignItems: 'center',
-            width: '100%',
+            display: "flex",
+            flexDirection: "column",
+            justtifyContent: "center",
+            alignItems: "center",
+            width: "100%",
           }}
         >
           <img
             src={boostLogo}
-            alt="logotype"
-            style={{ width: '40%', height: '40%' }}
+            alt='logotype'
+            style={{ width: "40%", height: "40%" }}
           />
 
           <h1
             style={{
-              color: '#fff',
-              display: 'flex',
-              textAlign: 'center',
-              width: '100%',
-              height: 'auto',
+              color: "#fff",
+              display: "flex",
+              textAlign: "center",
+              width: "100%",
+              height: "auto",
             }}
           >
             Utomhusträning i Kungsbacka
