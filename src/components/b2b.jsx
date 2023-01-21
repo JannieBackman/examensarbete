@@ -1,5 +1,4 @@
 import "./b2b.css";
-import kiwi from "./assets/boost-kiwi.png";
 import astaff from "./assets/boost-astaff.png";
 import kiwiLogo from "./assets/KiWiLogo.png";
 
