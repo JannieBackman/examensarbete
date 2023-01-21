@@ -1,8 +1,8 @@
 import "./b2b.css";
 import kiwi from "./assets/boost-kiwi.png";
 import astaff from "./assets/boost-astaff.png";
-import kiwi2 from "./assets/boost-kiwi21.png";
 import kiwiLogo from "./assets/KiWiLogo.png";
+
 function B2b() {
   return (
     <div className='b2b-container'>
@@ -22,9 +22,9 @@ function B2b() {
       <div className='refOne'>
         <div className='refOneText'>
           <p>
-            ”Jossan var med och drev KiWis hälsosatsning under 2022,ett roligt
-            inslag i vår vardag. Jossan höll i våra träningspass på jobbet ,alla
-            belagda utomhus runt om i Göteborg.Jossan var flexibel med både
+            ”Jossan var med och drev KiWis hälsosatsning under 2022, ett roligt
+            inslag i vår vardag. Jossan höll i våra träningspass på jobbet, alla
+            belagda utomhus runt om i Göteborg. Jossan var flexibel med både
             tider och platser så det passade vår organisation. I sin coachroll
             är hon duktig på att ta fram rätt övningar och anpassa till
             individen, oavsett tidigare träningsnivå kunde alla vara med. Bra
@@ -33,13 +33,13 @@ function B2b() {
             träning och hälsa. Rekommenderar henne varmt”
           </p>
         </div>
-        <div className='refOneImg' style={{ height: "100%", display: "flex" }}>
+        <div className='refOneImg'>
           <img src={kiwiLogo} alt='ptonline' />
         </div>
       </div>
       <div className='refTwo'>
         <div className='refTwoImg'>
-          <img src={astaff} alt='ptonline' width={"50%"} maxWidth={"100%"} />
+          <img src={astaff} alt='ptonline' />
         </div>
         <div className='refTwoText'>
           <p>
