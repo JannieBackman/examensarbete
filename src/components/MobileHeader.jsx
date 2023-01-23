@@ -13,7 +13,6 @@ function NavMobile() {
       <div
         className='nav-mobile'
         style={{
-          position: "absolute",
           alignItems: "center",
         }}
       >

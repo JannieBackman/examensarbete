@@ -39,3 +39,9 @@
   font-weight: 400;
   margin: 0;
 }
+
+@media (max-width: 790px) {
+  .header-container {
+    padding: 0;
+  }
+}
