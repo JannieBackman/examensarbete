@@ -100,6 +100,9 @@ h1 {
   margin: 0;
   padding: 0;
 }
+.err-msg {
+  color: red;
+}
 
 @media (max-width: 400px) {
   .form-container {
