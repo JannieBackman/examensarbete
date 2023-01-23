@@ -5,6 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 /* .products-container div {
@@ -22,7 +23,7 @@
 }
 
 .outdoor {
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex;
   margin: 2rem;
@@ -35,13 +36,14 @@
   padding: 2rem;
 }
 .outdoorImg {
-  width: 50%;
+  width: auto;
   height: 100%;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 .outdoorImg img {
-  width: 400px;
+  width: 300px;
   height: auto;
   object-fit: fill;
   display: flex;
