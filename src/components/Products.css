@@ -5,10 +5,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.products-container div {
-  padding-top: 1rem;
+  width: 100%;
+  margin-bottom: 2rem;
 }
 
 .products-container h1 {
@@ -20,49 +18,52 @@
   width: 80%;
   padding-top: 1rem;
 }
-.outdoor {
-  width: 80%;
+
+.outdoor,
+.pt {
+  width: 100%;
   height: auto;
   display: flex;
-  background-color: aliceblue;
-  margin: 2rem;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-  padding: 1rem;
+  margin: 4rem 2rem 2rem 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .pt {
-  display: flex;
-  width: 80%;
-  height: auto;
-  background-color: aliceblue;
-  margin: 2rem;
+  flex-direction: row-reverse;
+}
+.outdoorText,
+.ptText {
+  width: 50%;
   padding: 2rem;
+}
+
+.outdoorImg,
+.ptImg {
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.outdoorImg img,
+.ptImg img {
+  width: 300px;
+  height: auto;
+  object-fit: fill;
+  display: flex;
+  justify-content: center;
 }
 
 .outdoor p,
 .pt p {
   font-size: 1.2rem;
-  padding: 0 2rem;
 }
-
-/* .outdoor img,
-.pt img {
-  padding: 1rem;
-  height: auto;
-  width: 100%;
-} */
 
 @media (min-width: 400px) {
   .intro {
     font-size: 1.2rem;
     padding: 0;
-  }
-
-  .outdoor,
-  .pt {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .outdoor p,
@@ -71,40 +72,26 @@
     font-size: 1rem;
     padding: 0;
   }
-
-  .outdoor img {
-    height: 200px;
-    width: 250px;
-  }
-  .pt img {
-    height: 200px;
-    width: 250px;
-  }
 }
-@media (min-width: 800px) {
-  .products-container {
-    padding: 0 5rem;
+@media (max-width: 700px) {
+  .intro {
+    width: 100%;
   }
-  .outdoor {
-    flex-direction: row;
-  }
-  .outdoor p,
-  .pt p {
-    text-align: start;
-    padding: 1rem;
-  }
-  .outdoor img {
-    height: 300px;
-    width: 300px;
-  }
-
+  .outdoor,
   .pt {
-    flex-direction: row-reverse;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 2rem 0 2rem 0;
   }
-
-  .pt img {
-    height: 300px;
-    width: 300px;
-    margin-bottom: 1rem;
+  .outdoorText,
+  .ptText {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+  }
+  .outdoorImg img,
+  .ptImg img {
+    width: 200px;
   }
 }

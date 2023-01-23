@@ -1,46 +1,46 @@
-import outdoorTraining from './assets/39.png';
-import pt_online from './assets/40.png';
-import './Products.css';
-import Button from 'react-bootstrap/Button';
+import outdoorTraining from "./assets/39.png";
+import pt_online from "./assets/40.png";
+import "./Products.css";
+import Button from "react-bootstrap/Button";
 
 function Products() {
   return (
-    <div className="products-container" id="product-section">
+    <div className='products-container' id='product-section'>
       <h1>Tjänster</h1>
-      <p className="intro">
+      <p className='intro'>
         Jag startade utomhusträningen hösten 2020 då det fanns utmaningar till
         att vara inomhus på ett gym, sedan dess har vi kört på i alla väder med
         träning ca 2 ggr/v året om. Träningen hos mig är varierande då ett pass
         är aldrig det andra likt.
       </p>
 
-      <div className="outdoor">
-        <div>
+      <div className='outdoor'>
+        <div className='outdoorText'>
           <h3>Utomhusträning</h3> <br />
           <p>
             Träningen sker med kroppsvikt, gummiband, kettlebells, bollar,
             hantlar m.m. <br /> Det är viktigt för mig att alla ska känna sig
             inkluderade och att jag hjälper just dig till att anpassa träningen
-            efter din nivå samt hjälper till ifall man har skada eller liknande.{' '}
+            efter din nivå samt hjälper till ifall man har skada eller liknande.{" "}
             <br /> <strong> ALLA </strong>kan vara med och mår bra utav rörelse
-            & att vi har väldigt kul tillsammans är ett stort plus. <br />{' '}
+            & att vi har väldigt kul tillsammans är ett stort plus. <br />{" "}
             <Button
-              variant="dark"
-              href="https://fb.me/e/3RmOhc2SH"
-              style={{ marginTop: '1rem' }}
+              variant='dark'
+              href='https://fb.me/e/3RmOhc2SH'
+              style={{ marginTop: "1rem" }}
             >
               Kommande pass
             </Button>
           </p>
         </div>
 
-        <div>
-          <img src={outdoorTraining} alt="outdoorworkout" />
+        <div className='outdoorImg'>
+          <img src={outdoorTraining} alt='outdoorworkout' />
         </div>
       </div>
 
-      <div className="pt">
-        <div>
+      <div className='pt'>
+        <div className='ptText'>
           <h3>Personlig träning / Online träning </h3>
           <p>
             <br />
@@ -54,8 +54,8 @@ function Products() {
           </p>
         </div>
 
-        <div>
-          <img src={pt_online} alt="ptonline" />
+        <div className='ptImg'>
+          <img src={pt_online} alt='ptonline' />
         </div>
       </div>
     </div>
