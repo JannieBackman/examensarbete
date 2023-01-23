@@ -40,7 +40,7 @@ function Products() {
       </div>
 
       <div className='pt'>
-        <div>
+        <div className='ptText'>
           <h3>Personlig träning / Online träning </h3>
           <p>
             <br />
@@ -54,7 +54,7 @@ function Products() {
           </p>
         </div>
 
-        <div>
+        <div className='ptImg'>
           <img src={pt_online} alt='ptonline' />
         </div>
       </div>
