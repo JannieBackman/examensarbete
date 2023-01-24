@@ -10,7 +10,7 @@ function Hero() {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        height: 600,
+        height: 800,
       }}
     >
       <img
