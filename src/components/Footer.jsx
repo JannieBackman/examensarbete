@@ -2,24 +2,27 @@ import logo from './assets/logo.png';
 import './Footer.css';
 import dumbell1 from './assets/dumbell1.jpg';
 import Form from './form';
+import Socials from './socials';
 
 function Footer() {
   return (
-    <div>
+    <div className="footer-container">
       <div style={{ display: 'flex' }}>
         <div
           style={{
             width: '50%',
+            position: 'relative',
           }}
         >
           <img
             src={dumbell1}
             style={{
-              position: 'relative',
               width: '100%',
               objectFit: 'fill',
             }}
           />
+
+          <Socials />
         </div>
         <div style={{ background: '#778a77', width: '50%' }}>
           <Form />

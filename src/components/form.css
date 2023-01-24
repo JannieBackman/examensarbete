@@ -1,5 +1,10 @@
 .form-container {
-  padding: 5rem;
+  padding: 1rem 5rem;
+}
+
+.form-container h1 {
+  color: #fff;
+  padding: 1rem 0rem;
 }
 
 input {

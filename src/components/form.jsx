@@ -39,6 +39,17 @@ function Form() {
           rows={7}
         />
         {errors.message && <span className="err-msg"> *Måste ifyllas</span>}
+        <div
+          style={{
+            display: 'flex',
+            padding: '1rem 0',
+            justifyContent: 'center',
+          }}
+        >
+          <label>Godkänn att din information skickas till företaget</label>
+          <input type="checkbox" {...register('isValid', { required: true })} />
+          {errors.message && <span className="err-msg"> *</span>}
+        </div>
         <input type="submit" />
       </form>
     </div>
