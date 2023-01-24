@@ -17,15 +17,8 @@ function Form() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="firstName">Namn</label>
         <input
-          placeholder="Anna"
+          placeholder="Anna Andersson"
           {...register('firstName', { required: true })}
-        />
-        {errors.message && <span className="err-msg">*Måste ifyllas</span>}{' '}
-        <br />
-        <label htmlFor="lastName">Efternamn</label>
-        <input
-          placeholder="Andersson"
-          {...register('lastName', { required: true })}
         />
         {errors.message && <span className="err-msg">*Måste ifyllas</span>}{' '}
         <br />
@@ -36,9 +29,6 @@ function Form() {
           {...register('email', { required: true })}
         />
         {errors.message && <span className="err-msg">*Måste ifyllas</span>}
-        <br />
-        <label htmlFor="subject">Ämne</label>
-        <input {...register('subject')} placeholder="ämne" type="text" />
         <br />
         <label htmlFor="lastName">Meddelande</label>
         <textarea

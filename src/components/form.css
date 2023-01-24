@@ -1,24 +1,31 @@
 .form-container {
-  padding: 1rem;
+  padding: 5rem;
 }
-input,
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #9eb89e;
+  padding: 0.5rem;
+  font-size: 14px;
+  height: 2rem;
+}
 textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
   border-radius: 4px;
   border: 1px solid #9eb89e;
-  padding: 10px 15px;
-  margin-bottom: 10px;
+  padding: 0.5rem;
   font-size: 14px;
+  height: 5rem;
 }
-
 label {
-  line-height: 2;
+  line-height: 1;
   text-align: left;
   display: block;
-  margin-bottom: 13px;
-  margin-top: 20px;
   color: black;
   font-size: 14px;
   font-weight: 200;
@@ -30,8 +37,7 @@ input[type='submit'] {
   color: white;
   text-transform: uppercase;
   border: none;
-  margin-top: 40px;
-  padding: 20px;
+  margin-top: 0.5rem;
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 10px;
