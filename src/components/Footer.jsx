@@ -1,23 +1,28 @@
 import logo from './assets/logo.png';
 import './Footer.css';
+import dumbell1 from './assets/dumbell1.jpg';
+import Form from './form';
 
 function Footer() {
   return (
-    <div id="contact-section">
-      <div className="footer-container">
-        <div>
-          <h2>BOOST BY JOSSAN</h2>
-          <div className="footer-links">
-            <a href="#product-section">
-              <p>Tjänster</p>
-            </a>
-            <a href="#about-section">
-              <p>Om mig</p>
-            </a>
-          </div>
+    <div>
+      <div style={{ display: 'flex' }}>
+        <div
+          style={{
+            width: '50%',
+          }}
+        >
+          <img
+            src={dumbell1}
+            style={{
+              position: 'relative',
+              width: '100%',
+              objectFit: 'fill',
+            }}
+          />
         </div>
-        <div className="img-container">
-          <img src={logo} alt="logo" className="footer-img" />
+        <div style={{ background: '#778a77', width: '50%' }}>
+          <Form />
         </div>
       </div>
       <div className="copyright">
