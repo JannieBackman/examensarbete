@@ -6,7 +6,7 @@ import Socials from './socials';
 
 function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="contact-section">
       <div style={{ display: 'flex' }}>
         <div
           style={{
