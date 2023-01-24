@@ -61,6 +61,17 @@ function Products() {
         </p>
         <img src={workout2} alt="workout" height={600} />
       </div>
+      <div className="quote">
+        <p className="about-intro">
+          <strong>
+            <span class="material-symbols-outlined">format_quote</span>
+            Jag brinner för att peppa, inspirera och älskar att se hur individen
+            utvecklas och vågar ta sig utanför sin comfortzone och framförallt
+            hjälpa till att skapa starka & hållbara kroppar.{' '}
+            <span class="material-symbols-outlined">format_quote</span>
+          </strong>
+        </p>
+      </div>
     </div>
   );
 }
