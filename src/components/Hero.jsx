@@ -1,23 +1,11 @@
 import heroImage from './assets/hero_bw.jpg';
 import boostLogo from './assets/logo.png';
+import './Hero.css';
 
 function Hero() {
   return (
-    <div
-      style={{
-        position: ' relative',
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        height: 800,
-      }}
-    >
-      <img
-        src={heroImage}
-        alt="outdoorworkout"
-        style={{ height: '100%', width: '100%' }}
-      />
+    <div className="hero-container">
+      <img src={heroImage} alt="outdoorworkout" className="hero-image" />
 
       <div
         style={{
@@ -27,51 +15,15 @@ function Hero() {
           transform: 'translate(-50%, -50%)',
         }}
       >
-        <div
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            justtifyContent: 'center',
-            alignItems: 'center',
-            width: '100%',
-          }}
-        >
+        <div className="hero-content">
           <img
             src={boostLogo}
             alt="logotype"
             style={{ width: '40%', height: '40%' }}
           />
-          <div style={{ textAlign: 'center' }}>
-            <h1
-              style={{
-                color: '#778A77',
-                fontFamily: 'Righteous',
-                fontWeight: '600',
-                fontSize: '4rem',
-                letterSpacing: '2rem',
-              }}
-            >
-              Josefin
-            </h1>
-            <h1
-              style={{
-                color: '#fff',
-                fontFamily: 'Righteous',
-                fontWeight: '600',
-                fontSize: '4rem',
-                letterSpacing: '2rem',
-              }}
-            >
-              Lundqvist
-            </h1>
-
-            <span
-              style={{
-                color: '#fff',
-              }}
-            >
-              Fitness Coach
-            </span>
+          <div className="hero-text">
+            <h1>Josefin Lundqvist</h1>
+            <span>Fitness Coach</span>
           </div>
         </div>
       </div>
