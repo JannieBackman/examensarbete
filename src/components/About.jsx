@@ -1,4 +1,3 @@
-import aboutMeDesktop from './assets/DSC05487.JPG';
 import aboutMe from './assets/DSC05500.JPG';
 import './About.css';
 import { React, useEffect, useState } from 'react';
@@ -17,11 +16,8 @@ function About() {
   }, []);
   return (
     <div className="about-container" id="about-section">
-      {!isMobile ? (
-        <img src={aboutMeDesktop} alt="aboutme" height={600} />
-      ) : (
-        <img src={aboutMe} alt="aboutme" height={600} />
-      )}
+      <img src={aboutMe} alt="aboutme" height={600} />
+
       <div className="about-content">
         <div className="about-title">
           <h4>Om mig</h4>{' '}
