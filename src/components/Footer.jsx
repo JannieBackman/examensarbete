@@ -1,4 +1,3 @@
-import logo from './assets/logo.png';
 import './Footer.css';
 import dumbell1 from './assets/dumbell1.jpg';
 import Form from './form';
@@ -16,6 +15,7 @@ function Footer() {
         >
           <img
             src={dumbell1}
+            alt="dumbell"
             style={{
               width: '100%',
               objectFit: 'fill',
