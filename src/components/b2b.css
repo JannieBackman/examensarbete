@@ -8,3 +8,54 @@
   text-align: center;
   padding-top: 2rem;
 }
+
+.b2b-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.b2b-reference {
+  width: 100%;
+}
+
+.b2b-ref-one,
+.b2b-ref-two {
+  text-align: center;
+  color: #fff;
+  background-color: #8b5b5b;
+  padding: 1rem;
+}
+.b2b-ref-img {
+  display: flex;
+  justify-content: center;
+}
+.b2b-ref-img img {
+  width: 50%;
+}
+@media (min-width: 768px) {
+  .b2b-reference {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+  }
+  .b2b-ref-one,
+  .b2b-ref-two {
+    padding: 1rem;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .b2b-ref-one,
+  .b2b-ref-two {
+    padding: 2rem;
+    width: 50%;
+  }
+}
+@media (min-width: 1440x) {
+  .b2b-ref-one,
+  .b2b-ref-two {
+    padding: 4rem;
+    width: 50%;
+  }
+}

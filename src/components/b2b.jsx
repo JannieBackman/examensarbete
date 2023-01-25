@@ -5,40 +5,23 @@ import kiwiLogo from './assets/KiWiLogo.png';
 function B2b() {
   return (
     <div className="b2b-container">
-      <div
-        style={{
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          margin: ' 5rem',
-        }}
-      >
+      <div className="b2b-content">
         <div style={{ textAlign: 'center' }}>
           <h1>Företagsträning </h1>
-          <p>
+          <p className="b2b-text">
             Är du sugen på att utmana & träna tillsammans med dina kollegor?
             Vill du som arbetsgivare hjälpa dina medarbetare till att bli
             piggare, starkare och må bättre? Jag erbjuder företagsträning både
             inomhus och utomhus. Att utmanas tillsammans med sina arbetskamrater
             är väldogt roligt och utvecklade samt skapar en bättre
             sammanhållning och dynamik i gruppen. <br />
-            Vill du ha en offert?
+            Vill du ha en offert? <br />
             <a href="#contact-section">Kontakta mig</a>
           </p>
         </div>
 
-        <div style={{ display: 'flex', gap: '1rem' }}>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              textAlign: 'center',
-              width: '50%',
-              padding: '3rem',
-              background: ' #8B5B5B',
-              color: '#fff',
-            }}
-          >
+        <div className="b2b-reference">
+          <div className="b2b-ref-one">
             <p>
               ”Jossan var med och drev KiWis hälsosatsning under 2022, ett
               roligt inslag i vår vardag. Jossan höll i våra träningspass på
@@ -51,21 +34,12 @@ function B2b() {
               tjej med stort hjärta för träning och hälsa. Rekommenderar henne
               varmt”
             </p>
-            <div style={{ width: '50%' }}>
+            <div className="b2b-ref-img">
               <img src={kiwiLogo} alt="ptonline" width={400} />
             </div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              width: '50%',
-              padding: '3rem',
-              background: ' #8B5B5B',
-              color: '#fff',
-              textAlign: 'center',
-            }}
-          >
+
+          <div className="b2b-ref-two">
             <p>
               ”Vi på A-Staffing anlitade Jossan för gruppträning som
               företagsaktivitet under några månader, våren 2022. Jossan var
@@ -73,9 +47,9 @@ function B2b() {
               individanpassade också övningarna vid behov. Vi kan absolut
               rekommendera Jossan för liknande upplägg och kan tänka oss att
               anlita Jossan igen vid framtida behov – Jenny Gundersen VD,
-              A-Staffing Construction”{' '}
+              A-Staffing Construction”
             </p>
-            <div style={{ width: '50%' }}>
+            <div className="b2b-ref-img">
               <img src={astaff} alt="ptonline" width={500} />
             </div>
           </div>
