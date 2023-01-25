@@ -158,21 +158,34 @@
   .outdoor-text {
     text-align: center;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .outdoor-content img {
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
+
     padding-bottom: 0;
   }
+  .outdoor-content h2 {
+    text-align: start;
+    font-size: 2.5rem;
+  }
+  .pt-content {
+    flex-direction: row-reverse;
+  }
+  .pt-content h2 {
+    font-size: 2.5rem;
+    text-align: start;
+  }
   .pt-text {
-    text-align: center;
+    text-align: start;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .pt-content img {
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
+
     padding-bottom: 0;
   }
 }
@@ -182,26 +195,27 @@
     width: 80%;
   }
   .outdoor-text {
-    text-align: center;
+    text-align: start;
     padding: 4rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .outdoor-content img {
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
+
     padding-bottom: 0;
   }
   .pt-content {
     width: 80%;
   }
   .pt-text {
-    text-align: center;
+    text-align: start;
     padding: 4rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .pt-content img {
-    height: 400px;
-    width: 300px;
+    height: 600px;
+    width: 400px;
     padding-bottom: 0;
   }
 }
