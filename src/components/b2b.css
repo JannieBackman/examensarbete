@@ -47,10 +47,23 @@
 }
 
 @media (min-width: 1024px) {
+  .b2b-container {
+    padding: 2rem 4rem;
+  }
+  .b2b-container h1 {
+    font-size: 3rem;
+  }
+  .b2b-text {
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.5rem;
+  }
+
   .b2b-ref-one,
   .b2b-ref-two {
-    padding: 2rem;
+    padding: 4rem;
     width: 50%;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 1440x) {
@@ -58,5 +71,6 @@
   .b2b-ref-two {
     padding: 4rem;
     width: 50%;
+    font-size: 1.5rem;
   }
 }

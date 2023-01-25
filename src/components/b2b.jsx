@@ -14,8 +14,7 @@ function B2b() {
             piggare, starkare och må bättre? Jag erbjuder företagsträning både
             inomhus och utomhus. Att utmanas tillsammans med sina arbetskamrater
             är väldogt roligt och utvecklade samt skapar en bättre
-            sammanhållning och dynamik i gruppen. <br />
-            Vill du ha en offert? <br />
+            sammanhållning och dynamik i gruppen. Vill du ha en offert? <br />
             <a href="#contact-section">Kontakta mig</a>
           </p>
         </div>
