@@ -1,104 +1,76 @@
 .b2b-container {
-  font-family: "Montserrat";
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 0 2rem;
+  font-family: 'Montserrat';
+  width: 100%;
 }
 
-.b2b {
-  width: 80%;
+.b2b-container h1 {
   text-align: center;
-  font-size: 1.2rem;
-}
-.b2b h2 {
   padding-top: 2rem;
 }
 
-.b2b p {
-  padding: 1rem;
-  font-size: 1.2rem;
+.b2b-text a {
+  text-decoration: none;
+  color: black;
 }
-.refOne {
-  display: flex;
-  background-color: aliceblue;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
+
+.b2b-reference {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.b2b-ref-one,
+.b2b-ref-two {
   text-align: center;
-  margin: 1rem;
+  color: #fff;
+  background-color: #8b5b5b;
   padding: 1rem;
 }
-
-.refOne p,
-.refTwoText p {
-  font-style: italic;
-  padding: 1rem;
-  margin: 0;
-}
-
-.refTwo {
+.b2b-ref-img {
   display: flex;
-  background-color: aliceblue;
-  flex-direction: column;
   justify-content: center;
-  text-align: center;
-  margin: 1rem;
-  padding: 1rem;
 }
-
-.refTwoImg img,
-.refOneImg img {
-  width: 300px;
+.b2b-ref-img img {
+  width: 50%;
 }
-
-@media (min-width: 1000px) {
-  .refOne {
-    flex-direction: row;
-  }
-}
-@media (min-width: 1020px) {
-  .refOne {
-    flex-direction: row;
-    width: auto;
+@media (min-width: 768px) {
+  .b2b-reference {
     display: flex;
-    justify-content: space-between;
-    height: auto;
-    margin: 2rem;
-    padding: 2rem;
+    gap: 1rem;
+    width: 100%;
   }
-  .refOneText,
-  .refTwoText {
+  .b2b-ref-one,
+  .b2b-ref-two {
+    padding: 1rem;
     width: 50%;
-    display: flex;
+  }
+}
+
+@media (min-width: 1024px) {
+  .b2b-container {
+    padding: 2rem 4rem;
+  }
+  .b2b-container h1 {
+    font-size: 3rem;
+  }
+  .b2b-text {
+    text-align: center;
+    padding: 4rem;
+    font-size: 1.5rem;
   }
 
-  .refOneImg,
-  .refTwoImg {
-    height: 100%;
+  .b2b-ref-one,
+  .b2b-ref-two {
+    padding: 4rem;
     width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 1.5rem;
   }
-
-  .refOneImg img,
-  .refTwoImg img {
-    width: 300px;
-  }
-
-  .refTwo {
-    width: auto;
-    padding: 2rem;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
-    margin: 2rem;
-  }
-
-  .refTwoText p {
-    margin: 0;
+}
+@media (min-width: 1440x) {
+  .b2b-ref-one,
+  .b2b-ref-two {
+    padding: 4rem;
+    width: 50%;
+    font-size: 1.5rem;
   }
 }

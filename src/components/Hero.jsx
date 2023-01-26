@@ -1,57 +1,30 @@
-import heroImage from "./assets/heroImage2.png";
-import boostLogo from "./assets/logo.png";
+import heroImage from './assets/hero_bw.jpg';
+import boostLogo from './assets/logo.png';
+import './Hero.css';
 
 function Hero() {
   return (
-    <div
-      style={{
-        position: " relative",
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <img
-        src={heroImage}
-        alt='outdoorworkout'
-        style={{ height: "100%", width: "100%" }}
-      />
+    <div className="hero-container">
+      <img src={heroImage} alt="outdoorworkout" className="hero-image" />
 
       <div
         style={{
-          position: "absolute",
-          top: "50%",
-          left: "50%",
-          transform: "translate(-50%, -50%)",
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            justtifyContent: "center",
-            alignItems: "center",
-            width: "100%",
-          }}
-        >
+        <div className="hero-content">
           <img
             src={boostLogo}
-            alt='logotype'
-            style={{ width: "40%", height: "40%" }}
+            alt="logotype"
+            style={{ width: '40%', height: '40%' }}
           />
-
-          <h1
-            style={{
-              color: "#fff",
-              display: "flex",
-              textAlign: "center",
-              width: "100%",
-              height: "auto",
-            }}
-          >
-            Utomhusträning i Kungsbacka
-          </h1>
+          <div className="hero-text">
+            <h1>Josefin Lundqvist</h1>
+            <span>Fitness Coach</span>
+          </div>
         </div>
       </div>
     </div>

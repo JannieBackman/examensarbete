@@ -17,15 +17,8 @@ function Form() {
       <form onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="firstName">Namn</label>
         <input
-          placeholder="Anna"
+          placeholder="Anna Andersson"
           {...register('firstName', { required: true })}
-        />
-        {errors.message && <span className="err-msg">*Måste ifyllas</span>}{' '}
-        <br />
-        <label htmlFor="lastName">Efternamn</label>
-        <input
-          placeholder="Andersson"
-          {...register('lastName', { required: true })}
         />
         {errors.message && <span className="err-msg">*Måste ifyllas</span>}{' '}
         <br />
@@ -37,9 +30,6 @@ function Form() {
         />
         {errors.message && <span className="err-msg">*Måste ifyllas</span>}
         <br />
-        <label htmlFor="subject">Ämne</label>
-        <input {...register('subject')} placeholder="ämne" type="text" />
-        <br />
         <label htmlFor="lastName">Meddelande</label>
         <textarea
           {...register('message', { required: true })}
@@ -49,6 +39,17 @@ function Form() {
           rows={7}
         />
         {errors.message && <span className="err-msg"> *Måste ifyllas</span>}
+        <div
+          style={{
+            display: 'flex',
+            padding: '1rem 0',
+            justifyContent: 'center',
+          }}
+        >
+          <label>Godkänn att din information skickas till företaget</label>
+          <input type="checkbox" {...register('isValid', { required: true })} />
+          {errors.message && <span className="err-msg"> *</span>}
+        </div>
         <input type="submit" />
       </form>
     </div>
