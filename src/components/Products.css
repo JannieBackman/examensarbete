@@ -23,7 +23,7 @@
   flex-direction: column;
   background-color: #778a77;
   color: #fff;
-  width: 100%;
+  width: 80%;
 }
 
 .outdoor-content h2 {
@@ -50,7 +50,7 @@
   flex-direction: column;
   background-color: #778a77;
   color: #fff;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .pt-content h2 {
@@ -110,6 +110,7 @@
     background-color: #778a77;
     color: #fff;
     width: 80%;
+
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -132,12 +133,12 @@
     padding-bottom: 0.5rem;
   }
 
-  .quote {
+  /* .quote {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 1rem;
-  }
+  } */
 
   .quote-text {
     font-size: 1.2rem;
@@ -153,12 +154,7 @@
     justify-content: center;
     align-items: center;
     gap: 0;
-  }
-  .outdoor-text,
-  .pt-text {
-    text-align: start;
-    padding: 1rem;
-    font-size: 1.5rem;
+    height: auto;
   }
 
   .outdoor-content,
@@ -168,7 +164,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
+    min-width: 80%;
     width: auto;
+  }
+
+  .outdoor-text,
+  .pt-text {
+    text-align: start;
+    padding: 1rem;
+    font-size: 1.5rem;
   }
 
   .outdoor-content img,
@@ -178,18 +183,14 @@
     padding-bottom: 0;
   }
 
-  .outdoor-content h2 {
+  .outdoor-content h2,
+  .pt-content h2 {
     text-align: start;
     font-size: 2.5rem;
   }
 
   .pt-content {
     flex-direction: row-reverse;
-  }
-
-  .pt-content h2 {
-    font-size: 2.5rem;
-    text-align: start;
   }
 
   .quote-text {
@@ -206,18 +207,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100;
+    width: 100%;
   }
 
   .products-container h1 {
     margin: 4rem;
   }
+
   .outdoor-content,
   .pt-content {
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 80%;
   }
+
   .outdoor-text,
   .pt-text {
     text-align: start;
