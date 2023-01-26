@@ -3,7 +3,7 @@ import "./Review.css";
 
 function Review() {
   return (
-    <Carousel style={{ backgroundColor: "#778a77", width: "100%" }}>
+    <Carousel style={{ backgroundColor: "#7982e1", width: "100%" }}>
       <Carousel.Item interval={4000}>
         <div className='d-block w-100 height'>
           <Carousel.Caption>

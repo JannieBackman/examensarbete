@@ -6,7 +6,6 @@
   justify-content: center;
   flex-direction: column;
   padding: 0;
-  gap: 1rem;
 }
 
 .products-container h1 {
@@ -18,7 +17,6 @@
 }
 
 .outdoor-content {
-  border: solid #778a77 5px;
   background-color: #778a77;
   color: #fff;
   display: flex;
@@ -84,6 +82,7 @@
   text-align: center;
   width: 75%;
   font-family: "poppins";
+  color: #555ebd;
 }
 
 .collapse-section {
@@ -103,7 +102,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 0;
-    gap: 1rem;
   }
 
   .outdoor-content,
@@ -150,12 +148,11 @@
 
 @media (min-width: 1024px) {
   .products-container {
-    /* padding: 0 2rem; */
-    /* gap: 1rem; */
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 0;
   }
   .outdoor-text,
   .pt-text {
@@ -171,7 +168,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: solid 5px #778a77; */
     width: auto;
   }
 
@@ -186,11 +182,11 @@
     text-align: start;
     font-size: 2.5rem;
   }
+
   .pt-content {
     flex-direction: row-reverse;
-
-    /* border: solid 5px #778a77; */
   }
+
   .pt-content h2 {
     font-size: 2.5rem;
     text-align: start;
@@ -207,8 +203,6 @@
 
 @media (min-width: 1440px) {
   .products-container {
-    /* padding: 0 2rem; */
-    /* gap: 1rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -241,7 +235,6 @@
     font-size: 1.5rem;
     text-align: center;
     width: 75%;
-    /* padding: 4rem; */
     margin: 4rem;
   }
 }

@@ -18,7 +18,7 @@ function Products() {
   }, []);
   return (
     <div className='products-container' id='product-section'>
-      <h1> Tjänster</h1>
+      <h1>Tjänster</h1>
 
       <div className='outdoor-content'>
         <div className='outdoor-text'>
