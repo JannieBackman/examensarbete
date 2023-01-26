@@ -1,8 +1,31 @@
-.footer-container {
+.footer-sm {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
 }
 
+.footer-sm a {
+  padding-left: 0.5rem;
+}
+.footer-bottom {
+  display: flex;
+
+  justify-content: center;
+}
 .copyright {
-  text-align: center;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+@media (min-width: 790px) {
+  .copyright {
+    font-size: 1.5rem;
+
+    background-color: white;
+    color: black;
+  }
 }

@@ -43,11 +43,12 @@ function Form() {
           style={{
             display: 'flex',
             padding: '1rem 0',
-            justifyContent: 'center',
+            flexDirection: 'row',
+            justifyContent: 'start',
           }}
         >
-          <label>Godkänn att din information skickas till företaget</label>
           <input type="checkbox" {...register('isValid', { required: true })} />
+          <label>Godkänn att din information skickas till företaget</label>
           {errors.message && <span className="err-msg"> *</span>}
         </div>
         <input type="submit" />

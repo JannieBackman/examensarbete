@@ -1,3 +1,11 @@
+.product-header h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: 'secular one';
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
 .products-container {
   font-family: 'Montserrat';
   width: 100%;
@@ -6,14 +14,7 @@
   justify-content: center;
   flex-direction: column;
   padding: 0;
-}
-
-.products-container h1 {
-  text-align: center;
-  padding-top: 2rem;
-  font-family: 'secular one';
-  letter-spacing: 0.4rem;
-  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .outdoor-content {
@@ -35,6 +36,7 @@
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
+
 .outdoor-text {
   font-size: 1rem;
   padding-top: 0.5rem;
@@ -172,16 +174,15 @@
     gap: 1rem;
   }
   .outdoor-text {
-    text-align: center;
+    text-align: start;
     padding: 1rem;
     font-size: 1.5rem;
   }
 
   .outdoor-content {
     width: 100%;
-    background-color: #fff;
-    color: black;
-    border: solid 5px #778a77;
+    color: #fff;
+    background-color: #778a77;
   }
   .outdoor-content img {
     height: 600px;
@@ -196,9 +197,9 @@
   .pt-content {
     flex-direction: row-reverse;
     width: 100%;
-    background-color: #fff;
-    color: black;
-    border: solid 5px #778a77;
+    width: 100%;
+    color: #fff;
+    background-color: #778a77;
   }
   .pt-content h2 {
     font-size: 2.5rem;
