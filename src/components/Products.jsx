@@ -5,7 +5,15 @@ import Collapse from 'react-bootstrap/Collapse';
 import './Products.css';
 import { React, useEffect, useState } from 'react';
 
-function Products() {
+export function ProductHeader() {
+  return (
+    <div className="product-header">
+      <h1> Tjänster</h1>;
+    </div>
+  );
+}
+
+export function ProductTop() {
   const [open, setOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(
     window.matchMedia('(max-width: 790px)').matches
@@ -17,7 +25,6 @@ function Products() {
   }, []);
   return (
     <div className="products-container" id="product-section">
-      <h1> Tjänster</h1>
       <div className="outdoor-content">
         <div className="outdoor-text">
           <h2> Utomhusträning</h2>
@@ -46,13 +53,13 @@ function Products() {
                   marginBottom: '1rem',
                 }}
                 onClick={() => setOpen(!open)}
-                aria-controls="example-collapse-text"
+                aria-controls="textOne"
                 aria-expanded={open}
               >
                 Läs mer
               </Button>
               <Collapse in={open}>
-                <div id="example-collapse-text">
+                <div id="textOne">
                   <p className="outdoor-text">
                     Träningen hos mig är varierande då ett pass är aldrig det
                     andra likt. Träningen sker med kroppsvikt, gummiband,
@@ -70,6 +77,22 @@ function Products() {
         </div>
         <img src={workout} alt="workout" height={600} />
       </div>
+    </div>
+  );
+}
+
+export function ProductBottom() {
+  const [open, setOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(
+    window.matchMedia('(max-width: 790px)').matches
+  );
+  useEffect(() => {
+    window
+      .matchMedia('(max-width: 790px)')
+      .addEventListener('change', (e) => setIsMobile(e.matches));
+  }, []);
+  return (
+    <div className="products-container" id="product-section">
       <div className="pt-content">
         <div className="pt-text">
           <h2> Personlig träning</h2>
@@ -87,30 +110,32 @@ function Products() {
               passar dig.
             </p>
           ) : (
-            <div className="collapse-section">
-              <Button
-                style={{
-                  backgroundColor: '#9eb89e',
-                  border: 'none',
-                  marginBottom: '1rem',
-                }}
-                onClick={() => setOpen(!open)}
-                aria-controls="example-collapse-text"
-                aria-expanded={open}
-              >
-                Läs mer
-              </Button>
-              <Collapse in={open}>
-                <div id="example-collapse-text">
-                  <p>
-                    Vi bygger upp ett tränings-program som passar just dig,
-                    antingen på gym, hemma eller ute eller online så du kan
-                    utföra träningen själv med hjälp utav ett träningsprogram
-                    som du kan ha i en app i telefonen. Hör av dig till mig på
-                    så hittar vi ett upplägg som passar dig.
-                  </p>
-                </div>
-              </Collapse>
+            <div>
+              <div className="collapse-section">
+                <Button
+                  style={{
+                    backgroundColor: '#9eb89e',
+                    border: 'none',
+                    marginBottom: '1rem',
+                  }}
+                  onClick={() => setOpen(!open)}
+                  aria-controls="textTwo"
+                  aria-expanded={open}
+                >
+                  Läs mer
+                </Button>
+                <Collapse in={open}>
+                  <div id="textTwo">
+                    <p>
+                      Vi bygger upp ett tränings-program som passar just dig,
+                      antingen på gym, hemma eller ute eller online så du kan
+                      utföra träningen själv med hjälp utav ett träningsprogram
+                      som du kan ha i en app i telefonen. Hör av dig till mig på
+                      så hittar vi ett upplägg som passar dig.
+                    </p>
+                  </div>
+                </Collapse>
+              </div>
             </div>
           )}
         </div>
@@ -130,5 +155,3 @@ function Products() {
     </div>
   );
 }
-
-export default Products;
