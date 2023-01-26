@@ -1,7 +1,7 @@
 .product-header h1 {
   text-align: center;
-  padding-top: 2rem;
-  font-family: 'secular one';
+  margin: 3rem;
+  font-family: "secular one";
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -124,19 +124,19 @@
     align-items: center;
     border: none;
   }
-  
+
   .outdoor-content h2,
   .pt-content h2 {
     text-align: center;
   }
-  
+
   .outdoor-text,
   .pt-text {
     text-align: center;
     padding: 1rem;
     font-size: 1rem;
   }
-  
+
   .outdoor-content img,
   .pt-content img {
     height: 400px;
@@ -166,7 +166,7 @@
     align-items: center;
     gap: 0;
     height: auto;
-}
+  }
 
   .outdoor-content,
   .pt-content {

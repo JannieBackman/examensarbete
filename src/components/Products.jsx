@@ -8,8 +8,8 @@ import Review from "./Review";
 
 export function ProductHeader() {
   return (
-    <div className="product-header">
-      <h1> Tjänster</h1>;
+    <div className='product-header'>
+      <h1> Tjänster</h1>
     </div>
   );
 }
@@ -25,9 +25,9 @@ export function ProductTop() {
       .addEventListener("change", (e) => setIsMobile(e.matches));
   }, []);
   return (
-    <div className="products-container" id="product-section">
-      <div className="outdoor-content">
-        <div className="outdoor-text">
+    <div className='products-container' id='product-section'>
+      <div className='outdoor-content'>
+        <div className='outdoor-text'>
           <h2> Utomhusträning</h2>
           <p>
             Jag startade utomhusträningen hösten 2020 då det fanns utmaningar
@@ -54,16 +54,14 @@ export function ProductTop() {
                   marginBottom: "1rem",
                 }}
                 onClick={() => setOpen(!open)}
-
-                aria-controls="textOne"
-
+                aria-controls='textOne'
                 aria-expanded={open}
               >
                 Läs mer
               </Button>
               <Collapse in={open}>
-                <div id="textOne">
-                  <p className="outdoor-text">
+                <div id='textOne'>
+                  <p className='outdoor-text'>
                     Träningen hos mig är varierande då ett pass är aldrig det
                     andra likt. Träningen sker med kroppsvikt, gummiband,
                     kettlebells, bollar, hantlar m.m. <br /> Det är viktigt för
@@ -81,24 +79,24 @@ export function ProductTop() {
 
         <img src={workout} alt='workout' height={600} />
       </div>
+      <Review />
     </div>
   );
 }
-
 export function ProductBottom() {
   const [open, setOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(
-    window.matchMedia('(max-width: 790px)').matches
+    window.matchMedia("(max-width: 790px)").matches
   );
   useEffect(() => {
     window
-      .matchMedia('(max-width: 790px)')
-      .addEventListener('change', (e) => setIsMobile(e.matches));
+      .matchMedia("(max-width: 790px)")
+      .addEventListener("change", (e) => setIsMobile(e.matches));
   }, []);
   return (
-    <div className="products-container" id="product-section">
-      <div className="pt-content">
-        <div className="pt-text">
+    <div className='products-container' id='product-section'>
+      <div className='pt-content'>
+        <div className='pt-text'>
           <h2> Personlig träning</h2>
           <p>
             Personlig träning för dig som önskar få hjälp med att nå nya mål med
@@ -115,21 +113,21 @@ export function ProductBottom() {
             </p>
           ) : (
             <div>
-              <div className="collapse-section">
+              <div className='collapse-section'>
                 <Button
                   style={{
-                    backgroundColor: '#9eb89e',
-                    border: 'none',
-                    marginBottom: '1rem',
+                    backgroundColor: "#9eb89e",
+                    border: "none",
+                    marginBottom: "1rem",
                   }}
                   onClick={() => setOpen(!open)}
-                  aria-controls="textTwo"
+                  aria-controls='textTwo'
                   aria-expanded={open}
                 >
                   Läs mer
                 </Button>
                 <Collapse in={open}>
-                  <div id="textTwo">
+                  <div id='textTwo'>
                     <p>
                       Vi bygger upp ett tränings-program som passar just dig,
                       antingen på gym, hemma eller ute eller online så du kan
