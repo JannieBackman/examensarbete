@@ -3,7 +3,7 @@ import "./Review.css";
 
 function Review() {
   return (
-    <Carousel style={{ backgroundColor: "#7982e1", width: "100%" }}>
+    <Carousel style={{ backgroundColor: "#37326e", width: "100%" }}>
       <Carousel.Item interval={4000}>
         <div className='d-block w-100 height'>
           <Carousel.Caption>
@@ -11,10 +11,11 @@ function Review() {
               <p>
                 {""}Kul och super bra träning för alla!{""}
               </p>
-              <footer className='blockquote-footer'>
-                <cite style={{ color: "black" }} title='Source Title'>
-                  Soffi
-                </cite>
+              <footer
+                style={{ color: "whitesmoke" }}
+                className='blockquote-footer'
+              >
+                <cite title='Source Title'>Soffi</cite>
               </footer>
             </blockquote>
           </Carousel.Caption>
@@ -27,10 +28,11 @@ function Review() {
               <p>
                 {""}Rolig och välgörande träning i utomhusmiljö 👍🏻👍🏻👍🏻👍🏻👍🏻{""}
               </p>
-              <footer className='blockquote-footer'>
-                <cite style={{ color: "black" }} title='Source Title'>
-                  Nettan
-                </cite>
+              <footer
+                style={{ color: "whitesmoke" }}
+                className='blockquote-footer'
+              >
+                <cite title='Source Title'>Nettan</cite>
               </footer>
             </blockquote>
           </Carousel.Caption>
@@ -44,10 +46,11 @@ function Review() {
                 {""}Bästa träningen, speciellt i dessa tider! Utomhus och med
                 avstånd 👌⭐️💪{""}
               </p>
-              <footer className='blockquote-footer'>
-                <cite style={{ color: "black" }} title='Source Title'>
-                  Monika
-                </cite>
+              <footer
+                style={{ color: "whitesmoke" }}
+                className='blockquote-footer'
+              >
+                <cite title='Source Title'>Monika</cite>
               </footer>
             </blockquote>
           </Carousel.Caption>
