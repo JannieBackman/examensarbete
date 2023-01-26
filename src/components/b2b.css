@@ -1,13 +1,14 @@
 .b2b-container {
   padding: 0 2rem;
-  font-family: 'poppins';
+  font-family: "poppins";
   width: 100%;
+  background-color: whitesmoke;
 }
 
 .b2b-container h1 {
   text-align: center;
   padding-top: 2rem;
-  font-family: 'secular one';
+  font-family: "secular one";
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -25,7 +26,7 @@
 h2 {
   text-align: center;
   padding-top: 2rem;
-  font-family: 'secular one';
+  font-family: "secular one";
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -33,10 +34,10 @@ h2 {
 .b2b-ref-one,
 .b2b-ref-two {
   text-align: center;
-  color: #fff;
-  background-color: #8b5b5b;
+  color: black;
+  background-color: white;
   padding: 1rem;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-style: italic;
 }
 .b2b-ref-img {
