@@ -6,7 +6,15 @@ import "./Products.css";
 import { React, useEffect, useState } from "react";
 import Review from "./Review";
 
-function Products() {
+export function ProductHeader() {
+  return (
+    <div className="product-header">
+      <h1> Tjänster</h1>;
+    </div>
+  );
+}
+
+export function ProductTop() {
   const [open, setOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(
     window.matchMedia("(max-width: 790px)").matches
@@ -17,11 +25,9 @@ function Products() {
       .addEventListener("change", (e) => setIsMobile(e.matches));
   }, []);
   return (
-    <div className='products-container' id='product-section'>
-      <h1>Tjänster</h1>
-
-      <div className='outdoor-content'>
-        <div className='outdoor-text'>
+    <div className="products-container" id="product-section">
+      <div className="outdoor-content">
+        <div className="outdoor-text">
           <h2> Utomhusträning</h2>
           <p>
             Jag startade utomhusträningen hösten 2020 då det fanns utmaningar
@@ -48,14 +54,16 @@ function Products() {
                   marginBottom: "1rem",
                 }}
                 onClick={() => setOpen(!open)}
-                aria-controls='example-collapse-text'
+
+                aria-controls="textOne"
+
                 aria-expanded={open}
               >
                 Läs mer
               </Button>
               <Collapse in={open}>
-                <div id='example-collapse-text'>
-                  <p className='outdoor-text'>
+                <div id="textOne">
+                  <p className="outdoor-text">
                     Träningen hos mig är varierande då ett pass är aldrig det
                     andra likt. Träningen sker med kroppsvikt, gummiband,
                     kettlebells, bollar, hantlar m.m. <br /> Det är viktigt för
@@ -73,9 +81,24 @@ function Products() {
 
         <img src={workout} alt='workout' height={600} />
       </div>
-      <Review />
-      <div className='pt-content'>
-        <div className='pt-text'>
+    </div>
+  );
+}
+
+export function ProductBottom() {
+  const [open, setOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(
+    window.matchMedia('(max-width: 790px)').matches
+  );
+  useEffect(() => {
+    window
+      .matchMedia('(max-width: 790px)')
+      .addEventListener('change', (e) => setIsMobile(e.matches));
+  }, []);
+  return (
+    <div className="products-container" id="product-section">
+      <div className="pt-content">
+        <div className="pt-text">
           <h2> Personlig träning</h2>
           <p>
             Personlig träning för dig som önskar få hjälp med att nå nya mål med
@@ -91,30 +114,32 @@ function Products() {
               passar dig.
             </p>
           ) : (
-            <div className='collapse-section'>
-              <Button
-                style={{
-                  backgroundColor: "#9eb89e",
-                  border: "none",
-                  marginBottom: "1rem",
-                }}
-                onClick={() => setOpen(!open)}
-                aria-controls='example-collapse-text'
-                aria-expanded={open}
-              >
-                Läs mer
-              </Button>
-              <Collapse in={open}>
-                <div id='example-collapse-text'>
-                  <p>
-                    Vi bygger upp ett tränings-program som passar just dig,
-                    antingen på gym, hemma eller ute eller online så du kan
-                    utföra träningen själv med hjälp utav ett träningsprogram
-                    som du kan ha i en app i telefonen. Hör av dig till mig på
-                    så hittar vi ett upplägg som passar dig.
-                  </p>
-                </div>
-              </Collapse>
+            <div>
+              <div className="collapse-section">
+                <Button
+                  style={{
+                    backgroundColor: '#9eb89e',
+                    border: 'none',
+                    marginBottom: '1rem',
+                  }}
+                  onClick={() => setOpen(!open)}
+                  aria-controls="textTwo"
+                  aria-expanded={open}
+                >
+                  Läs mer
+                </Button>
+                <Collapse in={open}>
+                  <div id="textTwo">
+                    <p>
+                      Vi bygger upp ett tränings-program som passar just dig,
+                      antingen på gym, hemma eller ute eller online så du kan
+                      utföra träningen själv med hjälp utav ett träningsprogram
+                      som du kan ha i en app i telefonen. Hör av dig till mig på
+                      så hittar vi ett upplägg som passar dig.
+                    </p>
+                  </div>
+                </Collapse>
+              </div>
             </div>
           )}
         </div>
@@ -135,5 +160,3 @@ function Products() {
     </div>
   );
 }
-
-export default Products;
