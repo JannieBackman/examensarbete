@@ -1,6 +1,6 @@
 .about-container {
   padding: 0 2rem;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   width: auto;
   display: flex;
   align-items: center;
@@ -23,13 +23,15 @@
 .about-text {
   color: #fff;
   text-align: center;
+  font-family: 'poppins';
 }
 
 .about-title h4 {
   letter-spacing: 0.5rem;
-  text-transform: uppercase;
   color: #fff;
   text-align: center;
+  font-family: 'secular one';
+  text-transform: uppercase;
 }
 
 .aboutMeSquare-img {
@@ -50,7 +52,7 @@
 @media (min-width: 1024px) {
   .about-container {
     margin: 3rem;
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
     /* width: 100%; */
     display: flex;
     align-items: center;
