@@ -48,10 +48,10 @@ function Footer() {
           </div>
           <div className="footer-sm">
             <div>
-              <a href="/instagram">
+              <a href="https://www.instagram.com/boost.by.jossan/">
                 <img src={ig} alt="instagram" width={50} />
               </a>
-              <a href="facebook">
+              <a href="https://www.facebook.com/boost.by.jossan">
                 <img src={fb} alt="facebook" width={48} />
               </a>
             </div>

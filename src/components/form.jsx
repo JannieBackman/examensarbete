@@ -48,7 +48,10 @@ function Form() {
           }}
         >
           <input type="checkbox" {...register('isValid', { required: true })} />
-          <label>Godkänn att din information skickas till företaget</label>
+          <label>
+            Jag accepterar att ovan infromation sänds till företaget i
+            kontaktsyfte.
+          </label>
           {errors.message && <span className="err-msg"> *</span>}
         </div>
         <input type="submit" />

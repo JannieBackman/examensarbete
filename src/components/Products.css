@@ -1,13 +1,15 @@
+/* Mobile 425px  */
+
 .product-header h1 {
   text-align: center;
   margin: 3rem;
-  font-family: "secular one";
+  font-family: 'secular one';
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
 
 .products-container {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   width: 100%;
   display: flex;
   align-items: center;
@@ -19,7 +21,7 @@
 .products-container h1 {
   text-align: center;
   padding-top: 2rem;
-  font-family: "secular one";
+  font-family: 'secular one';
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -31,14 +33,14 @@
   flex-direction: column;
   background-color: #778a77;
   color: #fff;
-  width: 80%;
+  width: 100%;
 }
 
 .outdoor-content h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-align: center;
   padding-top: 1rem;
-  font-family: "secular one";
+  font-family: 'secular one';
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -49,7 +51,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
-  font-family: "poppins";
+  font-family: 'poppins';
 }
 
 .pt-content {
@@ -66,7 +68,7 @@
   font-size: 1.3rem;
   text-align: center;
   padding-top: 1rem;
-  font-family: "secular one";
+  font-family: 'secular one';
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -77,7 +79,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
-  font-family: "poppins";
+  font-family: 'poppins';
 }
 
 .quote-content {
@@ -91,7 +93,7 @@
   font-size: 1rem;
   text-align: center;
   width: 75%;
-  font-family: "poppins";
+  font-family: 'poppins';
 }
 
 .collapse-section {
@@ -103,6 +105,82 @@
   text-align: center;
 }
 
+@media (max-width: 400px) {
+  .product-header h1 {
+    text-align: center;
+    margin: 2rem;
+    font-family: 'secular one';
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .products-container h1 {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: 'secular one';
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .outdoor-content {
+    background-color: #778a77;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #778a77;
+    color: #fff;
+    width: 100%;
+  }
+
+  .outdoor-content h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'secular one';
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+  }
+
+  .pt-content {
+    background-color: #778a77;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    background-color: #778a77;
+    color: #fff;
+    width: 100%;
+  }
+
+  .pt-content h2 {
+    font-size: 1.3rem;
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'secular one';
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+  }
+
+  .pt-text {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    text-align: center;
+    font-family: 'poppins';
+  }
+
+  .collapse-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .collapse-section p {
+    padding: 0;
+  }
+}
 @media (min-width: 768px) {
   .products-container {
     width: 100%;

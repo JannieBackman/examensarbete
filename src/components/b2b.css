@@ -1,6 +1,6 @@
 .b2b-container {
   padding: 0 2rem;
-  font-family: "poppins";
+  font-family: 'poppins';
   width: 100%;
   background-color: whitesmoke;
 }
@@ -8,12 +8,14 @@
 .b2b-container h1 {
   text-align: center;
   padding-top: 2rem;
-  font-family: "secular one";
+  font-family: 'secular one';
   letter-spacing: 0.4rem;
-
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
-
+.b2b-text {
+  padding: 0 1rem;
+}
 .b2b-text a {
   text-decoration: none;
   color: black;
@@ -27,7 +29,7 @@
 h2 {
   text-align: center;
   padding-top: 2rem;
-  font-family: "secular one";
+  font-family: 'secular one';
   letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: smaller;
@@ -38,9 +40,10 @@ h2 {
   text-align: center;
   color: black;
   background-color: white;
-  padding: 1rem;
-  font-family: "poppins";
+  margin: 1rem;
+  font-family: 'poppins';
   font-style: italic;
+  font-size: 0.8rem;
 }
 .b2b-ref-img {
   display: flex;
@@ -49,6 +52,22 @@ h2 {
 .b2b-ref-img img {
   width: 50%;
 }
+
+@media (max-width: 400px) {
+  .b2b-content h1 {
+    letter-spacing: 0.3rem;
+    font-size: 1.3rem;
+  }
+  .b2b-content h2 {
+    letter-spacing: 0.3rem;
+    font-size: 1rem;
+  }
+  .b2b-ref-one,
+  .b2b-ref-two {
+    font-size: 0.8rem;
+  }
+}
+
 @media (min-width: 768px) {
   .b2b-reference {
     display: flex;
