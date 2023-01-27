@@ -78,7 +78,8 @@
 
   .about-content {
     background-color: #778a77;
-    height: 600px;
+    min-height: 600px;
+    height: auto;
     padding: 2rem;
     width: auto;
   }
