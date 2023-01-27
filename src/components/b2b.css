@@ -10,6 +10,7 @@
   padding-top: 2rem;
   font-family: "secular one";
   letter-spacing: 0.4rem;
+
   text-transform: uppercase;
 }
 
@@ -29,6 +30,7 @@ h2 {
   font-family: "secular one";
   letter-spacing: 0.4rem;
   text-transform: uppercase;
+  font-size: smaller;
 }
 
 .b2b-ref-one,
