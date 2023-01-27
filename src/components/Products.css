@@ -1,38 +1,44 @@
 .product-header h1 {
   text-align: center;
-  padding-top: 2rem;
-  font-family: 'secular one';
+  margin: 3rem;
+  font-family: "secular one";
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
 
 .products-container {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding: 0;
-  margin-bottom: 1rem;
+}
+
+.products-container h1 {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "secular one";
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
 }
 
 .outdoor-content {
-  border: solid #778a77 5px;
   background-color: #778a77;
   color: #fff;
   display: flex;
   flex-direction: column;
   background-color: #778a77;
   color: #fff;
-  width: 100%;
+  width: 80%;
 }
 
 .outdoor-content h2 {
   font-size: 1.3rem;
   text-align: center;
   padding-top: 1rem;
-  font-family: 'secular one';
+  font-family: "secular one";
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
@@ -43,7 +49,7 @@
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 .pt-content {
@@ -53,24 +59,25 @@
   flex-direction: column;
   background-color: #778a77;
   color: #fff;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .pt-content h2 {
   font-size: 1.3rem;
   text-align: center;
   padding-top: 1rem;
-  font-family: 'secular one';
+  font-family: "secular one";
   letter-spacing: 0.4rem;
   text-transform: uppercase;
 }
+
 .pt-text {
   font-size: 1rem;
   padding-top: 0.5rem;
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: center;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 .quote-content {
@@ -84,7 +91,7 @@
   font-size: 1rem;
   text-align: center;
   width: 75%;
-  font-family: 'poppins';
+  font-family: "poppins";
 }
 
 .collapse-section {
@@ -98,37 +105,15 @@
 
 @media (min-width: 768px) {
   .products-container {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 0;
-    gap: 0.5rem;
-  }
-  .outdoor-content {
-    display: flex;
-    background-color: #778a77;
-    color: #fff;
-    width: 80%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: none;
-  }
-  .outdoor-content h2 {
-    text-align: center;
-  }
-  .outdoor-text {
-    text-align: center;
-    padding: 1rem;
-    font-size: 1rem;
-  }
-  .outdoor-content img {
-    height: 400px;
-    width: 300px;
-    padding-bottom: 0.5rem;
   }
 
+  .outdoor-content,
   .pt-content {
     display: flex;
     background-color: #778a77;
@@ -139,27 +124,32 @@
     align-items: center;
     border: none;
   }
+
+  .outdoor-content h2,
   .pt-content h2 {
     text-align: center;
   }
+
+  .outdoor-text,
   .pt-text {
     text-align: center;
     padding: 1rem;
     font-size: 1rem;
   }
 
+  .outdoor-content img,
   .pt-content img {
     height: 400px;
     width: 300px;
     padding-bottom: 0.5rem;
   }
 
-  .quote {
+  /* .quote {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 1rem;
-  }
+  } */
 
   .quote-text {
     font-size: 1.2rem;
@@ -170,96 +160,96 @@
 
 @media (min-width: 1024px) {
   .products-container {
-    padding: 0 2rem;
-    gap: 1rem;
-  }
-  .outdoor-text {
-    text-align: start;
-    padding: 1rem;
-    font-size: 1.5rem;
-  }
-
-  .outdoor-content {
     width: 100%;
-    color: #fff;
-    background-color: #778a77;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    height: auto;
   }
-  .outdoor-content img {
-    height: 600px;
-    width: 400px;
 
-    padding-bottom: 0;
-  }
-  .outdoor-content h2 {
-    text-align: start;
-    font-size: 2.5rem;
-  }
+  .outdoor-content,
   .pt-content {
-    flex-direction: row-reverse;
-    width: 100%;
-    width: 100%;
-    color: #fff;
-    background-color: #778a77;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-width: 80%;
+    width: auto;
   }
-  .pt-content h2 {
-    font-size: 2.5rem;
-    text-align: start;
-  }
+
+  .outdoor-text,
   .pt-text {
     text-align: start;
     padding: 1rem;
     font-size: 1.5rem;
   }
+
+  .outdoor-content img,
   .pt-content img {
     height: 600px;
     width: 400px;
-
     padding-bottom: 0;
   }
+
+  .outdoor-content h2,
+  .pt-content h2 {
+    text-align: start;
+    font-size: 2.5rem;
+  }
+
+  .pt-content {
+    flex-direction: row-reverse;
+  }
+
   .quote-text {
     font-size: 1.5rem;
     text-align: center;
     width: 75%;
     padding: 2rem;
+    font-weight: bolder;
   }
 }
 
 @media (min-width: 1440px) {
   .products-container {
-    padding: 0 2rem;
-    gap: 1rem;
-  }
-  .outdoor-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
   }
-  .outdoor-text {
-    text-align: start;
-    padding: 4rem;
-    font-size: 1.5rem;
-  }
-  .outdoor-content img {
-    height: 600px;
-    width: 400px;
 
-    padding-bottom: 0;
+  .products-container h1 {
+    margin: 4rem;
   }
+
+  .outdoor-content,
   .pt-content {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 80%;
   }
+
+  .outdoor-text,
   .pt-text {
     text-align: start;
     padding: 4rem;
     font-size: 1.5rem;
   }
+  .outdoor-content img,
   .pt-content img {
     height: 600px;
     width: 400px;
     padding-bottom: 0;
   }
+
   .quote-text {
     font-size: 1.5rem;
     text-align: center;
     width: 75%;
-    padding: 2rem;
+    margin: 4rem;
   }
 }
